@@ -1,4 +1,4 @@
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://kevin801006/CH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 # 
 # 
 # #################################################################
@@ -8,60 +8,170 @@
 # #################################################################
 # 
 # 
-# http://www.semanticweb.org/administrator/ontologies/2018/4/CH#Consists_of_P45
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#Consists_of_P45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# http://kevin801006/CH#Consists_of_P45
+<http://kevin801006/CH#Consists_of_P45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kevin801006/CH#Consists_of_P45> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> .
+<http://kevin801006/CH#Consists_of_P45> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
 # 
-# http://www.semanticweb.org/administrator/ontologies/2018/4/CH#as_identified_P35
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#as_identified_P35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# http://kevin801006/CH#as_identified_P35
+<http://kevin801006/CH#as_identified_P35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kevin801006/CH#as_identified_P35> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14> .
+<http://kevin801006/CH#as_identified_P35> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3> .
 # 
-# http://www.semanticweb.org/administrator/ontologies/2018/4/CH#brought_into_existence_P92
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#brought_into_existence_P92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# http://kevin801006/CH#brought_into_existence_P92
+<http://kevin801006/CH#brought_into_existence_P92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kevin801006/CH#brought_into_existence_P92> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> .
+<http://kevin801006/CH#brought_into_existence_P92> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63> .
 # 
-# http://www.semanticweb.org/administrator/ontologies/2018/4/CH#concerned_P34
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#concerned_P34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# http://kevin801006/CH#concerned_P34
+<http://kevin801006/CH#concerned_P34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kevin801006/CH#concerned_P34> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14> .
+<http://kevin801006/CH#concerned_P34> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> .
 # 
-# http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_dimension_P43
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_dimension_P43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# http://kevin801006/CH#has_dimension_P43
+<http://kevin801006/CH#has_dimension_P43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kevin801006/CH#has_dimension_P43> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> .
+<http://kevin801006/CH#has_dimension_P43> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54> .
 # 
-# http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_time_span_P4
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_time_span_P4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# http://kevin801006/CH#has_time_span_P4
+<http://kevin801006/CH#has_time_span_P4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kevin801006/CH#has_time_span_P4> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3> .
+<http://kevin801006/CH#has_time_span_P4> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49> .
 # 
-# http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_type_P2
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_type_P2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# http://kevin801006/CH#has_type_P2
+<http://kevin801006/CH#has_type_P2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kevin801006/CH#has_type_P2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1> .
+<http://kevin801006/CH#has_type_P2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55> .
+<http://kevin801006/CH#has_type_P2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55> .
+<http://kevin801006/CH#has_type_P2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55> .
+<http://kevin801006/CH#has_type_P2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55> .
+<http://kevin801006/CH#has_type_P2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55> .
+<http://kevin801006/CH#has_type_P2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55> .
+<http://kevin801006/CH#has_type_P2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55> .
+<http://kevin801006/CH#has_type_P2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55> .
+<http://kevin801006/CH#has_type_P2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55> .
+<http://kevin801006/CH#has_type_P2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55> .
+<http://kevin801006/CH#has_type_P2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55> .
+<http://kevin801006/CH#has_type_P2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55> .
 # 
-# http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_unit_P91
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_unit_P91> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# http://kevin801006/CH#has_unit_P91
+<http://kevin801006/CH#has_unit_P91> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kevin801006/CH#has_unit_P91> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54> .
+<http://kevin801006/CH#has_unit_P91> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58> .
 # 
-# http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_identified_by_P1
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_identified_by_P1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# http://kevin801006/CH#is_identified_by_P1
+<http://kevin801006/CH#is_identified_by_P1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kevin801006/CH#is_identified_by_P1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> .
+<http://kevin801006/CH#is_identified_by_P1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1> .
+<http://kevin801006/CH#is_identified_by_P1> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42> .
+<http://kevin801006/CH#is_identified_by_P1> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41> .
 # 
-# http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_identified_by_P78
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_identified_by_P78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_identified_by_P78> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54> .
+# http://kevin801006/CH#is_identified_by_P78
+<http://kevin801006/CH#is_identified_by_P78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kevin801006/CH#is_identified_by_P78> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63> .
+<http://kevin801006/CH#is_identified_by_P78> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64> .
+<http://kevin801006/CH#is_identified_by_P78> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49> .
+<http://kevin801006/CH#is_identified_by_P78> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49> .
 # 
-# http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_listed_in_P71
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_listed_in_P71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# http://kevin801006/CH#is_listed_in_P71
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_Authority_Document_E32> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_Authority_Document_E32> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_Authority_Document_E32> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_Authority_Document_E32> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_Authority_Document_E32> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_Authority_Document_E32> .
+<http://kevin801006/CH#is_listed_in_P71> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32> .
 # 
-# http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_related_to
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_related_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# http://kevin801006/CH#is_related_to
+<http://kevin801006/CH#is_related_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# http://www.semanticweb.org/administrator/ontologies/2018/4/CH#refers_to_P67
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#refers_to_P67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# http://kevin801006/CH#refers_to_P67
+<http://kevin801006/CH#refers_to_P67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kevin801006/CH#refers_to_P67> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3> .
+<http://kevin801006/CH#refers_to_P67> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E89> .
 # 
-# http://www.semanticweb.org/administrator/ontologies/2018/4/CH#took_out_of_existence_P93
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#took_out_of_existence_P93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# http://kevin801006/CH#took_out_of_existence_P93
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_Authority_Document_E32> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_Authority_Document_E32> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_Authority_Document_E32> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_Authority_Document_E32> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_Authority_Document_E32> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32> .
+<http://kevin801006/CH#took_out_of_existence_P93> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
 # 
-# http://www.semanticweb.org/administrator/ontologies/2018/4/CH#used_specific_object_P16
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#used_specific_object_P16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# http://kevin801006/CH#used_specific_object_P16
+<http://kevin801006/CH#used_specific_object_P16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kevin801006/CH#used_specific_object_P16> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> .
+<http://kevin801006/CH#used_specific_object_P16> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
 # 
-# http://www.semanticweb.org/administrator/ontologies/2018/4/CH#used_specific_technique_P33
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#used_specific_technique_P33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# http://kevin801006/CH#used_specific_technique_P33
+<http://kevin801006/CH#used_specific_technique_P33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://kevin801006/CH#used_specific_technique_P33> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> .
+<http://kevin801006/CH#used_specific_technique_P33> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29> .
 # 
 # http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_note_P3
 <http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_note_P3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_note_P3> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3> .
+<http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_note_P3> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> .
+<http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_note_P3> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Description_E62> .
+<http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_note_P3> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_E62> .
 # 
 # http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_value_P90
 <http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_value_P90> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_value_P90> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54> .
+<http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_value_P90> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Number_E60> .
 # 
 # 
 # 
@@ -76,11 +186,11 @@
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_type_P2> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#has_type_P2> .
 _:genid1 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_identified_by_P78> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_identified_by_P78> .
 _:genid2 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_Authority_Document_E32
@@ -90,7 +200,7 @@ _:genid2 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.o
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_listed_in_P71> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_listed_in_P71> .
 _:genid3 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_Authority_Document_E32> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32
@@ -100,14 +210,14 @@ _:genid3 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.o
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_listed_in_P71> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_listed_in_P71> .
 _:genid4 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#as_identified_P35> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#as_identified_P35> .
 _:genid5 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Description_E62
@@ -117,24 +227,24 @@ _:genid5 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.o
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_type_P2> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#has_type_P2> .
 _:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_type_P2> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#has_type_P2> .
 _:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_type_P2> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#has_type_P2> .
 _:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
 _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_time_span_P4> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#has_time_span_P4> .
 _:genid9 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
 _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#refers_to_P67> .
-_:genid10 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E88> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#refers_to_P67> .
+_:genid10 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E89> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
 _:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_note_P3> .
@@ -147,14 +257,14 @@ _:genid11 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_listed_in_P71> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_listed_in_P71> .
 _:genid12 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_Authority_Document_E32> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
 _:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_type_P2> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#has_type_P2> .
 _:genid13 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32
@@ -164,17 +274,17 @@ _:genid13 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
 _:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_listed_in_P71> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_listed_in_P71> .
 _:genid14 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_62
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_62> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+# http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_E62
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_E62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_E62> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
 _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_type_P2> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#has_type_P2> .
 _:genid15 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_Authority_Document_E32
@@ -184,14 +294,14 @@ _:genid15 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_listed_in_P71> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_listed_in_P71> .
 _:genid16 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_Authority_Document_E32> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
 _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_unit_P91> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#has_unit_P91> .
 _:genid17 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
 _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
@@ -205,7 +315,7 @@ _:genid18 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
 _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_listed_in_P71> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_listed_in_P71> .
 _:genid19 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_Authority_Document_E32> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32
@@ -215,59 +325,59 @@ _:genid19 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
 _:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_listed_in_P71> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_listed_in_P71> .
 _:genid20 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
 _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_type_P2> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#has_type_P2> .
 _:genid21 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
 _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_type_P2> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#has_type_P2> .
 _:genid22 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
 _:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_identified_by_P1> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_identified_by_P1> .
 _:genid23 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
 _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_related_to> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_related_to> .
 _:genid24 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
 _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#Consists_of_P45> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#Consists_of_P45> .
 _:genid25 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
 _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#brought_into_existence_P92> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#brought_into_existence_P92> .
 _:genid26 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
 _:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#concerned_P34> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#concerned_P34> .
 _:genid27 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
 _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_dimension_P43> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#has_dimension_P43> .
 _:genid28 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid29 .
 _:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#took_out_of_existence_P93> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#took_out_of_existence_P93> .
 _:genid29 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid30 .
 _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#used_specific_object_P16> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#used_specific_object_P16> .
 _:genid30 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid31 .
 _:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#used_specific_technique_P33> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#used_specific_technique_P33> .
 _:genid31 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid32 .
 _:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid32 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_note_P3> .
-_:genid32 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_62> .
+_:genid32 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_E62> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -276,11 +386,11 @@ _:genid32 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid33 .
 _:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_type_P2> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#has_type_P2> .
 _:genid33 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid34 .
 _:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_identified_by_P78> .
+_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_identified_by_P78> .
 _:genid34 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32
@@ -290,21 +400,21 @@ _:genid34 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid35 .
 _:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_listed_in_P71> .
+_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_listed_in_P71> .
 _:genid35 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid36 .
 _:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_identified_by_P1> .
+_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_identified_by_P1> .
 _:genid36 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid37 .
 _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_type_P2> .
+_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#has_type_P2> .
 _:genid37 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32
@@ -314,14 +424,14 @@ _:genid37 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid38 .
 _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_listed_in_P71> .
+_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_listed_in_P71> .
 _:genid38 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32> .
 # 
-# http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E88
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E88> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E88> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39 .
+# http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E89
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E89> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39 .
 _:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_type_P2> .
+_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#has_type_P2> .
 _:genid39 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32
@@ -331,7 +441,7 @@ _:genid39 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid40 .
 _:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_listed_in_P71> .
+_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_listed_in_P71> .
 _:genid40 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58
@@ -341,7 +451,7 @@ _:genid40 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid41 .
 _:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_type_P2> .
+_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#has_type_P2> .
 _:genid41 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32
@@ -351,7 +461,7 @@ _:genid41 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid42 .
 _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_listed_in_P71> .
+_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_listed_in_P71> .
 _:genid42 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Number_E60
@@ -364,7 +474,7 @@ _:genid42 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid43 .
 _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_listed_in_P71> .
+_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_listed_in_P71> .
 _:genid43 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_Authority_Document_E32> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49
@@ -377,7 +487,7 @@ _:genid43 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid44 .
 _:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_listed_in_P71> .
+_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_listed_in_P71> .
 _:genid44 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_Authority_Document_E32> .
 # 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32
@@ -387,7 +497,7 @@ _:genid44 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid45 .
 _:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid45 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_listed_in_P71> .
+_:genid45 <http://www.w3.org/2002/07/owl#onProperty> <http://kevin801006/CH#is_listed_in_P71> .
 _:genid45 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32> .
 # 
 # 
@@ -399,8 +509,8 @@ _:genid45 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.
 # #################################################################
 # 
 # 
-# http://www.semanticweb.org/administrator/ontologies/2018/4/CH#birth
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#birth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/administrator/ontologies/2018/4/CH#birth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55> .
+# http://kevin801006/CH#birth
+<http://kevin801006/CH#birth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#birth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55> .
 # 
 # Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
