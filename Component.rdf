@@ -1,0 +1,864 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://kevin801006/CH#"
+     xml:base="http://kevin801006/CH"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://kevin801006/CH"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://kevin801006/CH#Consists_of_P45 -->
+
+    <owl:ObjectProperty rdf:about="http://kevin801006/CH#Consists_of_P45">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kevin801006/CH#as_identified_P35 -->
+
+    <owl:ObjectProperty rdf:about="http://kevin801006/CH#as_identified_P35">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kevin801006/CH#brought_into_existence_P92 -->
+
+    <owl:ObjectProperty rdf:about="http://kevin801006/CH#brought_into_existence_P92">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kevin801006/CH#concerned_P34 -->
+
+    <owl:ObjectProperty rdf:about="http://kevin801006/CH#concerned_P34">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kevin801006/CH#has_dimension_P43 -->
+
+    <owl:ObjectProperty rdf:about="http://kevin801006/CH#has_dimension_P43">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kevin801006/CH#has_time_span_P4 -->
+
+    <owl:ObjectProperty rdf:about="http://kevin801006/CH#has_time_span_P4">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kevin801006/CH#has_type_P2 -->
+
+    <owl:ObjectProperty rdf:about="http://kevin801006/CH#has_type_P2">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kevin801006/CH#has_unit_P91 -->
+
+    <owl:ObjectProperty rdf:about="http://kevin801006/CH#has_unit_P91">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kevin801006/CH#is_identified_by_P1 -->
+
+    <owl:ObjectProperty rdf:about="http://kevin801006/CH#is_identified_by_P1">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kevin801006/CH#is_identified_by_P78 -->
+
+    <owl:ObjectProperty rdf:about="http://kevin801006/CH#is_identified_by_P78">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kevin801006/CH#is_listed_in_P71 -->
+
+    <owl:ObjectProperty rdf:about="http://kevin801006/CH#is_listed_in_P71">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kevin801006/CH#is_related_to -->
+
+    <owl:ObjectProperty rdf:about="http://kevin801006/CH#is_related_to"/>
+    
+
+
+    <!-- http://kevin801006/CH#refers_to_P67 -->
+
+    <owl:ObjectProperty rdf:about="http://kevin801006/CH#refers_to_P67">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E89"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kevin801006/CH#took_out_of_existence_P93 -->
+
+    <owl:ObjectProperty rdf:about="http://kevin801006/CH#took_out_of_existence_P93">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kevin801006/CH#used_specific_object_P16 -->
+
+    <owl:ObjectProperty rdf:about="http://kevin801006/CH#used_specific_object_P16">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://kevin801006/CH#used_specific_technique_P33 -->
+
+    <owl:ObjectProperty rdf:about="http://kevin801006/CH#used_specific_technique_P33">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_note_P3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_note_P3">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Description_E62"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_E62"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_value_P90 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_value_P90">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Number_E60"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#has_type_P2"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_identified_by_P78"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_Authority_Document_E32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_Authority_Document_E32"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_listed_in_P71"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_Authority_Document_E32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_listed_in_P71"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#as_identified_P35"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Description_E62 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Description_E62"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#has_type_P2"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#has_type_P2"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#has_type_P2"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#has_time_span_P4"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#refers_to_P67"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E89"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_note_P3"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Description_E62"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_Authority_Document_E32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_Authority_Document_E32"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_listed_in_P71"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_Authority_Document_E32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#has_type_P2"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_listed_in_P71"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_E62 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_E62">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#has_type_P2"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_Authority_Document_E32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_Authority_Document_E32"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_listed_in_P71"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_Authority_Document_E32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#has_unit_P91"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_value_P90"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Number_E60"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_Authority_Document_E32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_Authority_Document_E32"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_listed_in_P71"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_Authority_Document_E32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_listed_in_P71"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#has_type_P2"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#has_type_P2"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_identified_by_P1"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#Consists_of_P45"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#brought_into_existence_P92"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#concerned_P34"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#has_dimension_P43"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#took_out_of_existence_P93"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#used_specific_object_P16"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#used_specific_technique_P33"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_note_P3"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_E62"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#has_type_P2"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_identified_by_P78"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_listed_in_P71"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_identified_by_P1"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#has_type_P2"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_listed_in_P71"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E89 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E89">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#has_type_P2"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_listed_in_P71"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#has_type_P2"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_listed_in_P71"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Number_E60 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Number_E60"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_Authority_Document_E32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_Authority_Document_E32"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_listed_in_P71"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_Authority_Document_E32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_Authority_Document_E32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_Authority_Document_E32"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_listed_in_P71"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_Authority_Document_E32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://kevin801006/CH#is_listed_in_P71"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://kevin801006/CH#birth -->
+
+    <owl:NamedIndividual rdf:about="http://kevin801006/CH#birth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
