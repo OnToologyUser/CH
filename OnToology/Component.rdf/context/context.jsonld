@@ -1,7 +1,7 @@
 {
   "@context" : {
     "used_specific_object_P16" : {
-      "@id" : "http://www.semanticweb.org/administrator/ontologies/2018/4/CH#used_specific_object_P16",
+      "@id" : "http://kevin801006/CH#used_specific_object_P16",
       "@type" : "@id"
     },
     "has_note_P3" : {
@@ -9,11 +9,11 @@
       "@type" : "@id"
     },
     "has_time_span_P4" : {
-      "@id" : "http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_time_span_P4",
+      "@id" : "http://kevin801006/CH#has_time_span_P4",
       "@type" : "@id"
     },
     "refers_to_P67" : {
-      "@id" : "http://www.semanticweb.org/administrator/ontologies/2018/4/CH#refers_to_P67",
+      "@id" : "http://kevin801006/CH#refers_to_P67",
       "@type" : "@id"
     },
     "External_Xref_Type_Authority_Document_E32" : {
@@ -23,15 +23,15 @@
       "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_Authority_Document_E32"
     },
     "took_out_of_existence_P93" : {
-      "@id" : "http://www.semanticweb.org/administrator/ontologies/2018/4/CH#took_out_of_existence_P93",
+      "@id" : "http://kevin801006/CH#took_out_of_existence_P93",
       "@type" : "@id"
     },
     "concerned_P34" : {
-      "@id" : "http://www.semanticweb.org/administrator/ontologies/2018/4/CH#concerned_P34",
+      "@id" : "http://kevin801006/CH#concerned_P34",
       "@type" : "@id"
     },
     "has_unit_P91" : {
-      "@id" : "http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_unit_P91",
+      "@id" : "http://kevin801006/CH#has_unit_P91",
       "@type" : "@id"
     },
     "External_Resource_E1" : {
@@ -41,14 +41,17 @@
       "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55"
     },
     "as_identified_P35" : {
-      "@id" : "http://www.semanticweb.org/administrator/ontologies/2018/4/CH#as_identified_P35",
+      "@id" : "http://kevin801006/CH#as_identified_P35",
       "@type" : "@id"
+    },
+    "Management_Recommendation_E89" : {
+      "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E89"
     },
     "Recommendation_Type_Authority_Document_E32" : {
       "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_Authority_Document_E32"
     },
     "is_related_to" : {
-      "@id" : "http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_related_to",
+      "@id" : "http://kevin801006/CH#is_related_to",
       "@type" : "@id"
     },
     "Date_Condition_Assessment_E49" : {
@@ -63,9 +66,6 @@
     "End_of_Existence_Type_E55" : {
       "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55"
     },
-    "Description_62" : {
-      "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_62"
-    },
     "Construction_Technique_Type_Authority_Document_E32" : {
       "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32"
     },
@@ -73,7 +73,7 @@
       "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32"
     },
     "Consists_of_P45" : {
-      "@id" : "http://www.semanticweb.org/administrator/ontologies/2018/4/CH#Consists_of_P45",
+      "@id" : "http://kevin801006/CH#Consists_of_P45",
       "@type" : "@id"
     },
     "Material_E57" : {
@@ -83,7 +83,7 @@
       "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55"
     },
     "is_identified_by_P1" : {
-      "@id" : "http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_identified_by_P1",
+      "@id" : "http://kevin801006/CH#is_identified_by_P1",
       "@type" : "@id"
     },
     "Name_Type_Authority_Document_E32" : {
@@ -108,7 +108,7 @@
       "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32"
     },
     "is_identified_by_P78" : {
-      "@id" : "http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_identified_by_P78",
+      "@id" : "http://kevin801006/CH#is_identified_by_P78",
       "@type" : "@id"
     },
     "External_Xref_E42" : {
@@ -116,6 +116,9 @@
     },
     "Condition_Type_E55" : {
       "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55"
+    },
+    "Description_E62" : {
+      "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_E62"
     },
     "Element_E18" : {
       "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18"
@@ -145,7 +148,7 @@
       "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55"
     },
     "is_listed_in_P71" : {
-      "@id" : "http://www.semanticweb.org/administrator/ontologies/2018/4/CH#is_listed_in_P71",
+      "@id" : "http://kevin801006/CH#is_listed_in_P71",
       "@type" : "@id"
     },
     "Beginning_of_Existence_E63" : {
@@ -161,18 +164,18 @@
       "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55"
     },
     "brought_into_existence_P92" : {
-      "@id" : "http://www.semanticweb.org/administrator/ontologies/2018/4/CH#brought_into_existence_P92",
+      "@id" : "http://kevin801006/CH#brought_into_existence_P92",
       "@type" : "@id"
     },
     "has_dimension_P43" : {
-      "@id" : "http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_dimension_P43",
+      "@id" : "http://kevin801006/CH#has_dimension_P43",
       "@type" : "@id"
     },
     "Condition_Description_E62" : {
       "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Description_E62"
     },
     "has_type_P2" : {
-      "@id" : "http://www.semanticweb.org/administrator/ontologies/2018/4/CH#has_type_P2",
+      "@id" : "http://kevin801006/CH#has_type_P2",
       "@type" : "@id"
     },
     "has_value_P90" : {
@@ -191,14 +194,11 @@
     "Dimension_E54" : {
       "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54"
     },
-    "Management_Recommendation_E88" : {
-      "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E88"
-    },
     "Condition_Type_Authority_Document_E32" : {
       "@id" : "http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_Authority_Document_E32"
     },
     "used_specific_technique_P33" : {
-      "@id" : "http://www.semanticweb.org/administrator/ontologies/2018/4/CH#used_specific_technique_P33",
+      "@id" : "http://kevin801006/CH#used_specific_technique_P33",
       "@type" : "@id"
     },
     "Beginning_of_Existence_Type_E55" : {
