@@ -12,173 +12,8 @@
 #    Object Properties
 #################################################################
 
-###  http://kevin801006/CH#Consists_of_P45
-:Consists_of_P45 rdf:type owl:ObjectProperty ;
-                 rdfs:domain <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> ;
-                 rdfs:range <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
-
-
-###  http://kevin801006/CH#as_identified_P35
-:as_identified_P35 rdf:type owl:ObjectProperty ;
-                   rdfs:domain <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14> ;
-                   rdfs:range <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3> .
-
-
-###  http://kevin801006/CH#brought_into_existence_P92
-:brought_into_existence_P92 rdf:type owl:ObjectProperty ;
-                            rdfs:domain <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> ;
-                            rdfs:range <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63> .
-
-
-###  http://kevin801006/CH#concerned_P34
-:concerned_P34 rdf:type owl:ObjectProperty ;
-               rdfs:domain <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14> ;
-               rdfs:range <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> .
-
-
-###  http://kevin801006/CH#has_dimension_P43
-:has_dimension_P43 rdf:type owl:ObjectProperty ;
-                   rdfs:domain <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> ;
-                   rdfs:range <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54> .
-
-
-###  http://kevin801006/CH#has_time_span_P4
-:has_time_span_P4 rdf:type owl:ObjectProperty ;
-                  rdfs:domain <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3> ;
-                  rdfs:range <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49> .
-
-
-###  http://kevin801006/CH#has_type_P2
-:has_type_P2 rdf:type owl:ObjectProperty ;
-             rdfs:domain <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1> ;
-             rdfs:range <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55> ,
-                        <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55> ,
-                        <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55> ,
-                        <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55> ,
-                        <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55> ,
-                        <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55> ,
-                        <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55> ,
-                        <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55> ,
-                        <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55> ,
-                        <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55> ,
-                        <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55> ,
-                        <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55> .
-
-
-###  http://kevin801006/CH#has_unit_P91
-:has_unit_P91 rdf:type owl:ObjectProperty ;
-              rdfs:domain <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54> ;
-              rdfs:range <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58> .
-
-
-###  http://kevin801006/CH#is_identified_by_P1
-:is_identified_by_P1 rdf:type owl:ObjectProperty ;
-                     rdfs:domain <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> ,
-                                 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1> ;
-                     rdfs:range <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42> ,
-                                <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41> .
-
-
-###  http://kevin801006/CH#is_identified_by_P78
-:is_identified_by_P78 rdf:type owl:ObjectProperty ;
-                      rdfs:domain <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63> ,
-                                  <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64> ;
-                      rdfs:range <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49> ,
-                                 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49> .
-
-
-###  http://kevin801006/CH#is_listed_in_P71
-:is_listed_in_P71 rdf:type owl:ObjectProperty ;
-                  rdfs:domain <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55> ,
-                              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55> ,
-                              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55> ,
-                              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55> ,
-                              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55> ,
-                              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55> ,
-                              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55> ,
-                              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55> ,
-                              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55> ,
-                              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> ,
-                              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55> ,
-                              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55> ,
-                              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55> ,
-                              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> ;
-                  rdfs:range <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_Authority_Document_E32> ,
-                             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32> ,
-                             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_Authority_Document_E32> ,
-                             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32> ,
-                             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_Authority_Document_E32> ,
-                             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_Authority_Document_E32> ,
-                             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32> ,
-                             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32> ,
-                             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32> ,
-                             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32> ,
-                             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32> ,
-                             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_Authority_Document_E32> ,
-                             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_Authority_Document_E32> ,
-                             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32> .
-
-
 ###  http://kevin801006/CH#is_related_to
 :is_related_to rdf:type owl:ObjectProperty .
-
-
-###  http://kevin801006/CH#refers_to_P67
-:refers_to_P67 rdf:type owl:ObjectProperty ;
-               rdfs:domain <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3> ;
-               rdfs:range <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E89> .
-
-
-###  http://kevin801006/CH#took_out_of_existence_P93
-:took_out_of_existence_P93 rdf:type owl:ObjectProperty ;
-                           rdfs:domain <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64> ;
-                           rdfs:range <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_Authority_Document_E32> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_Authority_Document_E32> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_Authority_Document_E32> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_Authority_Document_E32> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_Authority_Document_E32> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32> ,
-                                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
-
-
-###  http://kevin801006/CH#used_specific_object_P16
-:used_specific_object_P16 rdf:type owl:ObjectProperty ;
-                          rdfs:domain <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> ;
-                          rdfs:range <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
-
-
-###  http://kevin801006/CH#used_specific_technique_P33
-:used_specific_technique_P33 rdf:type owl:ObjectProperty ;
-                             rdfs:domain <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> ;
-                             rdfs:range <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29> .
 
 
 ###  http://www.cidoc-crm.org/cidoc-crm/P100_was_death_of
@@ -3843,6 +3678,25 @@ Since Time-Spans may not have precisely known temporal extents, the CRM supports
 #    Classes
 #################################################################
 
+###  http://kevin801006/CH#Number_E60
+:Number_E60 rdf:type owl:Class ;
+            rdfs:subClassOf :Primitive_Value_E59 .
+
+
+###  http://kevin801006/CH#Primitive_Value_E59
+:Primitive_Value_E59 rdf:type owl:Class .
+
+
+###  http://kevin801006/CH#String_E62
+:String_E62 rdf:type owl:Class ;
+            rdfs:subClassOf :Primitive_Value_E59 .
+
+
+###  http://kevin801006/CH#Time_Primitive_E61
+:Time_Primitive_E61 rdf:type owl:Class ;
+                    rdfs:subClassOf :Primitive_Value_E59 .
+
+
 ###  http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody
 <http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody> rdf:type owl:Class ;
                                                              rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> ;
@@ -3979,7 +3833,7 @@ The CRM is generally not concerned with amounts of matter in fluid or gaseous st
 """@en ;
                                                         rdfs:label "Chose matérielle"@fr ,
                                                                    "Coisa Material"@pt ,
-                                                                   "E18 Physical Thing (HIP Heritage Resource)"@en ,
+                                                                   "E18 Physical Thing"@en ,
                                                                    "Materielles"@de ,
                                                                    "Υλικό Πράγμα"@el ,
                                                                    "Физическая Вещь"@ru .
@@ -4350,10 +4204,10 @@ Instances of E41 Appellation do not identify things by their meaning, even if th
 Specific subclasses of E41 Appellation should be used when instances of E41 Appellation of a characteristic form are used for particular objects. Instances of E49 Time Appellation, for example, which take the form of instances of E50 Date, can be easily recognised.
 E41 Appellation should not be confused with the act of naming something. Cf. E15 Identifier Assignment
 """@en ;
-                                                     rdfs:label "Appellation"@fr ,
+                                                     rdfs:label "Appellation"@en ,
+                                                                "Appellation"@fr ,
                                                                 "Benennung"@de ,
                                                                 "Designação"@pt ,
-                                                                "E41 Appellation (HIP Name)"@en ,
                                                                 "Ονομασία"@el ,
                                                                 "Обозначение"@ru .
 
@@ -5042,72 +4896,80 @@ E55 Type is the CRM’s interface to domain specific ontologies and thesauri. Th
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63> rdf:type owl:Class ;
-                                                                                                      rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                                        owl:onProperty :has_type_P2 ;
+                                                                                                      rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence> ,
+                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                        owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ;
                                                                                                                         owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55>
                                                                                                                       ] ,
                                                                                                                       [ rdf:type owl:Restriction ;
-                                                                                                                        owl:onProperty :is_identified_by_P78 ;
+                                                                                                                        owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by> ;
                                                                                                                         owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49>
                                                                                                                       ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_Authority_Document_E32
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_Authority_Document_E32> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_Authority_Document_E32> rdf:type owl:Class ;
+                                                                                                                              rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document> ,
+                                                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                                                owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P71_lists> ;
+                                                                                                                                                owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55>
+                                                                                                                                              ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55> rdf:type owl:Class ;
-                                                                                                           rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                                             owl:onProperty :is_listed_in_P71 ;
-                                                                                                                             owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_Authority_Document_E32>
-                                                                                                                           ] .
+                                                                                                           rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32> rdf:type owl:Class ;
+                                                                                                                 rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document> ,
+                                                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P71_lists> ;
+                                                                                                                                   owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55>
+                                                                                                                                 ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55> rdf:type owl:Class ;
-                                                                                              rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                                owl:onProperty :is_listed_in_P71 ;
-                                                                                                                owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32>
-                                                                                                              ] .
+                                                                                              rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14> rdf:type owl:Class ;
-                                                                                                    rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                                      owl:onProperty :as_identified_P35 ;
+                                                                                                    rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment> ,
+                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                      owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P35_has_identified> ;
                                                                                                                       owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3>
                                                                                                                     ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Description_E62
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Description_E62> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Description_E62> rdf:type owl:Class ;
+                                                                                                     rdfs:subClassOf :String_E62 .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3> rdf:type owl:Class ;
-                                                                                        rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                          owl:onProperty :has_type_P2 ;
+                                                                                        rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State> ,
+                                                                                                        [ rdf:type owl:Restriction ;
+                                                                                                          owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ;
                                                                                                           owl:someValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55>
                                                                                                         ] ,
                                                                                                         [ rdf:type owl:Restriction ;
-                                                                                                          owl:onProperty :has_type_P2 ;
+                                                                                                          owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ;
                                                                                                           owl:someValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55>
                                                                                                         ] ,
                                                                                                         [ rdf:type owl:Restriction ;
-                                                                                                          owl:onProperty :has_type_P2 ;
+                                                                                                          owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ;
                                                                                                           owl:someValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55>
                                                                                                         ] ,
                                                                                                         [ rdf:type owl:Restriction ;
-                                                                                                          owl:onProperty :has_time_span_P4 ;
+                                                                                                          owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> ;
                                                                                                           owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49>
                                                                                                         ] ,
                                                                                                         [ rdf:type owl:Restriction ;
-                                                                                                          owl:onProperty :refers_to_P67 ;
+                                                                                                          owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to> ;
                                                                                                           owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E89>
                                                                                                         ] ,
                                                                                                         [ rdf:type owl:Restriction ;
@@ -5117,142 +4979,153 @@ E55 Type is the CRM’s interface to domain specific ontologies and thesauri. Th
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_Authority_Document_E32
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_Authority_Document_E32> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_Authority_Document_E32> rdf:type owl:Class ;
+                                                                                                                 rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document> ,
+                                                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P71_lists> ;
+                                                                                                                                   owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55>
+                                                                                                                                 ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55> rdf:type owl:Class ;
-                                                                                              rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                                owl:onProperty :is_listed_in_P71 ;
-                                                                                                                owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_Authority_Document_E32>
-                                                                                                              ] .
+                                                                                              rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29> rdf:type owl:Class ;
-                                                                                                      rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                                        owl:onProperty :has_type_P2 ;
+                                                                                                      rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure> ,
+                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                        owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ;
                                                                                                                         owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55>
                                                                                                                       ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32> rdf:type owl:Class ;
+                                                                                                                              rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document> ,
+                                                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                                                owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P71_lists> ;
+                                                                                                                                                owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55>
+                                                                                                                                              ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55> rdf:type owl:Class ;
-                                                                                                           rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                                             owl:onProperty :is_listed_in_P71 ;
-                                                                                                                             owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32>
-                                                                                                                           ] .
+                                                                                                           rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49> rdf:type owl:Class ;
+                                                                                                         rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation> .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_E62
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_E62> rdf:type owl:Class ;
-                                                                                           rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                             owl:onProperty :has_type_P2 ;
+                                                                                           rdfs:subClassOf :String_E62 ,
+                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                             owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ;
                                                                                                              owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55>
                                                                                                            ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_Authority_Document_E32
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_Authority_Document_E32> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_Authority_Document_E32> rdf:type owl:Class ;
+                                                                                                                   rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document> ,
+                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P71_lists> ;
+                                                                                                                                     owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55>
+                                                                                                                                   ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55> rdf:type owl:Class ;
-                                                                                                rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                                  owl:onProperty :is_listed_in_P71 ;
-                                                                                                                  owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_Authority_Document_E32>
-                                                                                                                ] .
+                                                                                                rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54> rdf:type owl:Class ;
-                                                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                           owl:onProperty :has_unit_P91 ;
-                                                                                                           owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58>
-                                                                                                         ] ,
+                                                                                         rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ,
                                                                                                          [ rdf:type owl:Restriction ;
-                                                                                                           owl:onProperty <http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_value_P90> ;
-                                                                                                           owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Number_E60>
+                                                                                                           owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> ;
+                                                                                                           owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58>
                                                                                                          ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_Authority_Document_E32
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_Authority_Document_E32> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_Authority_Document_E32> rdf:type owl:Class ;
+                                                                                                              rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document> ,
+                                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                                owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P71_lists> ;
+                                                                                                                                owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55>
+                                                                                                                              ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55> rdf:type owl:Class ;
-                                                                                           rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                             owl:onProperty :is_listed_in_P71 ;
-                                                                                                             owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_Authority_Document_E32>
-                                                                                                           ] .
+                                                                                           rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32> rdf:type owl:Class ;
+                                                                                                                              rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document> ,
+                                                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                                                owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P71_lists> ;
+                                                                                                                                                owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55>
+                                                                                                                                              ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55> rdf:type owl:Class ;
-                                                                                                           rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                                             owl:onProperty :is_listed_in_P71 ;
-                                                                                                                             owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32>
-                                                                                                                           ] .
+                                                                                                           rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> rdf:type owl:Class ;
-                                                                                       rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                         owl:onProperty :has_type_P2 ;
-                                                                                                         owl:someValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55>
-                                                                                                       ] ,
-                                                                                                       [ rdf:type owl:Restriction ;
-                                                                                                         owl:onProperty :has_type_P2 ;
-                                                                                                         owl:someValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55>
-                                                                                                       ] ,
-                                                                                                       [ rdf:type owl:Restriction ;
-                                                                                                         owl:onProperty :is_identified_by_P1 ;
-                                                                                                         owl:someValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41>
-                                                                                                       ] ,
+                                                                                       rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing> ,
                                                                                                        [ rdf:type owl:Restriction ;
                                                                                                          owl:onProperty :is_related_to ;
                                                                                                          owl:someValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1>
                                                                                                        ] ,
                                                                                                        [ rdf:type owl:Restriction ;
-                                                                                                         owl:onProperty :Consists_of_P45 ;
-                                                                                                         owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57>
+                                                                                                         owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> ;
+                                                                                                         owl:someValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41>
                                                                                                        ] ,
                                                                                                        [ rdf:type owl:Restriction ;
-                                                                                                         owl:onProperty :brought_into_existence_P92 ;
-                                                                                                         owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63>
+                                                                                                         owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ;
+                                                                                                         owl:someValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55>
                                                                                                        ] ,
                                                                                                        [ rdf:type owl:Restriction ;
-                                                                                                         owl:onProperty :concerned_P34 ;
-                                                                                                         owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14>
+                                                                                                         owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ;
+                                                                                                         owl:someValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55>
                                                                                                        ] ,
                                                                                                        [ rdf:type owl:Restriction ;
-                                                                                                         owl:onProperty :has_dimension_P43 ;
-                                                                                                         owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54>
-                                                                                                       ] ,
-                                                                                                       [ rdf:type owl:Restriction ;
-                                                                                                         owl:onProperty :took_out_of_existence_P93 ;
-                                                                                                         owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64>
-                                                                                                       ] ,
-                                                                                                       [ rdf:type owl:Restriction ;
-                                                                                                         owl:onProperty :used_specific_object_P16 ;
+                                                                                                         owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> ;
                                                                                                          owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71>
                                                                                                        ] ,
                                                                                                        [ rdf:type owl:Restriction ;
-                                                                                                         owl:onProperty :used_specific_technique_P33 ;
+                                                                                                         owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique> ;
                                                                                                          owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29>
+                                                                                                       ] ,
+                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                         owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P34_concerned> ;
+                                                                                                         owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14>
+                                                                                                       ] ,
+                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                         owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension> ;
+                                                                                                         owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54>
+                                                                                                       ] ,
+                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                         owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P45_consists_of> ;
+                                                                                                         owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57>
+                                                                                                       ] ,
+                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                         owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P92_brought_into_existence> ;
+                                                                                                         owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63>
+                                                                                                       ] ,
+                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                         owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P93_took_out_of_existence> ;
+                                                                                                         owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64>
                                                                                                        ] ,
                                                                                                        [ rdf:type owl:Restriction ;
                                                                                                          owl:onProperty <http://www.semanticweb.org/user/ontologies/2018/4/untitled-ontology-5#has_note_P3> ;
@@ -5261,194 +5134,170 @@ E55 Type is the CRM’s interface to domain specific ontologies and thesauri. Th
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49> rdf:type owl:Class ;
+                                                                                                     rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation> .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64> rdf:type owl:Class ;
-                                                                                                rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                                  owl:onProperty :has_type_P2 ;
+                                                                                                rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E64_End_of_Existence> ,
+                                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                                  owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ;
                                                                                                                   owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55>
                                                                                                                 ] ,
                                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                                  owl:onProperty :is_identified_by_P78 ;
+                                                                                                                  owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by> ;
                                                                                                                   owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49>
                                                                                                                 ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32> rdf:type owl:Class ;
+                                                                                                                        rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document> ,
+                                                                                                                                        [ rdf:type owl:Restriction ;
+                                                                                                                                          owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P71_lists> ;
+                                                                                                                                          owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55>
+                                                                                                                                        ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55> rdf:type owl:Class ;
-                                                                                                     rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                                       owl:onProperty :is_listed_in_P71 ;
-                                                                                                                       owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32>
-                                                                                                                     ] .
+                                                                                                     rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1> rdf:type owl:Class ;
-                                                                                                rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                                  owl:onProperty :is_identified_by_P1 ;
+                                                                                                rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity> ,
+                                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                                  owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier> ;
                                                                                                                   owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42>
                                                                                                                 ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42> rdf:type owl:Class ;
-                                                                                             rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                               owl:onProperty :has_type_P2 ;
+                                                                                             rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> ,
+                                                                                                             [ rdf:type owl:Restriction ;
+                                                                                                               owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ;
                                                                                                                owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55>
                                                                                                              ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32> rdf:type owl:Class ;
+                                                                                                                     rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document> ,
+                                                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                                                       owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P71_lists> ;
+                                                                                                                                       owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55>
+                                                                                                                                     ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55> rdf:type owl:Class ;
-                                                                                                  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                                    owl:onProperty :is_listed_in_P71 ;
-                                                                                                                    owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32>
-                                                                                                                  ] .
+                                                                                                  rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E89
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E89> rdf:type owl:Class ;
-                                                                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                                           owl:onProperty :has_type_P2 ;
+                                                                                                         rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object> ,
+                                                                                                                         [ rdf:type owl:Restriction ;
+                                                                                                                           owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ;
                                                                                                                            owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55>
                                                                                                                          ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32> rdf:type owl:Class ;
+                                                                                                           rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document> ,
+                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                             owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P71_lists> ;
+                                                                                                                             owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57>
+                                                                                                                           ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> rdf:type owl:Class ;
-                                                                                        rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                          owl:onProperty :is_listed_in_P71 ;
-                                                                                                          owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32>
-                                                                                                        ] .
+                                                                                        rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E57_Material> .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit> .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41> rdf:type owl:Class ;
-                                                                                    rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                      owl:onProperty :has_type_P2 ;
+                                                                                    rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ,
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> ;
                                                                                                       owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55>
                                                                                                     ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32> rdf:type owl:Class ;
+                                                                                                            rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document> ,
+                                                                                                                            [ rdf:type owl:Restriction ;
+                                                                                                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P71_lists> ;
+                                                                                                                              owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55>
+                                                                                                                            ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55> rdf:type owl:Class ;
-                                                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                           owl:onProperty :is_listed_in_P71 ;
-                                                                                                           owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32>
-                                                                                                         ] .
+                                                                                         rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Number_E60
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Number_E60> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Number_E60> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf :Number_E60 .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_Authority_Document_E32
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_Authority_Document_E32> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_Authority_Document_E32> rdf:type owl:Class ;
+                                                                                                                      rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document> ,
+                                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                                        owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P71_lists> ;
+                                                                                                                                        owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55>
+                                                                                                                                      ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55> rdf:type owl:Class ;
-                                                                                                   rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                                     owl:onProperty :is_listed_in_P71 ;
-                                                                                                                     owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_Authority_Document_E32>
-                                                                                                                   ] .
+                                                                                                   rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49> rdf:type owl:Class ;
+                                                                                                       rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation> .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_Authority_Document_E32
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_Authority_Document_E32> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_Authority_Document_E32> rdf:type owl:Class ;
+                                                                                                         rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document> ,
+                                                                                                                         [ rdf:type owl:Restriction ;
+                                                                                                                           owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P71_lists> ;
+                                                                                                                           owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55>
+                                                                                                                         ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55> rdf:type owl:Class ;
-                                                                                      rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                        owl:onProperty :is_listed_in_P71 ;
-                                                                                                        owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_Authority_Document_E32>
-                                                                                                      ] .
+                                                                                      rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32
-<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32> rdf:type owl:Class .
+<http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32> rdf:type owl:Class ;
+                                                                                                       rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document> ,
+                                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                                         owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P71_lists> ;
+                                                                                                                         owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71>
+                                                                                                                       ] .
 
 
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> rdf:type owl:Class ;
-                                                                                    rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                      owl:onProperty :is_listed_in_P71 ;
-                                                                                                      owl:allValuesFrom <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32>
-                                                                                                    ] .
-
-
-#################################################################
-#    Individuals
-#################################################################
-
-###  http://kevin801006/CH#birth
-:birth rdf:type owl:NamedIndividual ,
-                <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55> .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#Measurement_Type1
-<http://www.co-ode.org/ontologies/ont.owl#Measurement_Type1> rdf:type owl:NamedIndividual ,
-                                                                      <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#Name1
-<http://www.co-ode.org/ontologies/ont.owl#Name1> rdf:type owl:NamedIndividual ,
-                                                          <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
-                                                 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://www.co-ode.org/ontologies/ont.owl#Name_type1> ;
-                                                 <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "鹿港龍山寺"^^xsd:string .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#Name_type1
-<http://www.co-ode.org/ontologies/ont.owl#Name_type1> rdf:type owl:NamedIndividual ,
-                                                               <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
-                                                      <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "國定古蹟"^^xsd:string .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#位置或地址
-<http://www.co-ode.org/ontologies/ont.owl#位置或地址> rdf:type owl:NamedIndividual ,
-                                                          <http://www.cidoc-crm.org/cidoc-crm/E53_Place> ;
-                                                 <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "帳畫線..."^^xsd:string .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#公告日期1
-<http://www.co-ode.org/ontologies/ont.owl#公告日期1> rdf:type owl:NamedIndividual ;
-                                                 <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "1983-12-28 00:00:00"^^xsd:string .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#古蹟1
-<http://www.co-ode.org/ontologies/ont.owl#古蹟1> rdf:type owl:NamedIndividual ,
-                                                        <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing> .
-
-
-###  http://www.co-ode.org/ontologies/ont.owl#123
-<http://www.co-ode.org/ontologies/ont.owl#123> rdf:type owl:NamedIndividual .
+                                                                                    rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E71_Man-Made_Thing> .
 
 
 ###  Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
