@@ -3245,8 +3245,8 @@
 <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing> <http://www.w3.org/2000/01/rdf-schema#comment> "This class comprises all persistent physical items with a relatively stable form, man-made or natural. \nDepending on the existence of natural boundaries of such things, the CRM distinguishes the instances of E19 Physical Object from instances of E26 Physical Feature, such as holes, rivers, pieces of land etc. Most instances of E19 Physical Object can be moved (if not too heavy), whereas features are integral to the surrounding matter. \nThe CRM is generally not concerned with amounts of matter in fluid or gaseous states. \n"@en .
 <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing> <http://www.w3.org/2000/01/rdf-schema#label> "Chose mat\u00E9rielle"@fr .
 <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing> <http://www.w3.org/2000/01/rdf-schema#label> "Coisa Material"@pt .
-<http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing> <http://www.w3.org/2000/01/rdf-schema#label> "E18 Physical Thing"@en .
 <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing> <http://www.w3.org/2000/01/rdf-schema#label> "Materielles"@de .
+<http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing> <http://www.w3.org/2000/01/rdf-schema#label> "Physical Thing"@en .
 <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing> <http://www.w3.org/2000/01/rdf-schema#label> "\u03A5\u03BB\u03B9\u03BA\u03CC \u03A0\u03C1\u03AC\u03B3\u03BC\u03B1"@el .
 <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing> <http://www.w3.org/2000/01/rdf-schema#label> "\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0412\u0435\u0449\u044C"@ru .
 # 
@@ -4042,11 +4042,6 @@
 <http://www.cidoc-crm.org/cidoc-crm/E9_Move> <http://www.w3.org/2000/01/rdf-schema#label> "\u039C\u03B5\u03C4\u03B1\u03BA\u03AF\u03BD\u03B7\u03C3\u03B7"@el .
 <http://www.cidoc-crm.org/cidoc-crm/E9_Move> <http://www.w3.org/2000/01/rdf-schema#label> "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"@ru .
 # 
-# http://www.co-ode.org/ontologies/ont.owl#Name_Type
-<http://www.co-ode.org/ontologies/ont.owl#Name_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.co-ode.org/ontologies/ont.owl#Name_Type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object> .
-<http://www.co-ode.org/ontologies/ont.owl#Name_Type> <http://www.w3.org/2000/01/rdf-schema#comment> "This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify instances of CRM classes. Instances of E55 Type represent concepts  in contrast to instances of E41 Appellation which are used to name instances of CRM classes. \nE55 Type is the CRM\u2019s interface to domain specific ontologies and thesauri. These can be represented in the CRM as subclasses of E55 Type, forming hierarchies of terms, i.e. instances of E55 Type linked via P127 has broader  term (has narrower term). Such hierarchies may be extended with additional properties. \n"@en .
-# 
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence> .
@@ -4406,5 +4401,281 @@ _:genid44 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.
 # http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E71_Man-Made_Thing> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://kevin801006/CH#EPOXY
+<http://kevin801006/CH#EPOXY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#EPOXY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+# 
+# http://kevin801006/CH#ISBN
+<http://kevin801006/CH#ISBN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#ISBN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55> .
+# 
+# http://kevin801006/CH#一級紅磚
+<http://kevin801006/CH#\u4E00\u7D1A\u7D05\u78DA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u4E00\u7D1A\u7D05\u78DA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+# 
+# http://kevin801006/CH#三維模型
+<http://kevin801006/CH#\u4E09\u7DAD\u6A21\u578B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u4E09\u7DAD\u6A21\u578B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1> .
+<http://kevin801006/CH#\u4E09\u7DAD\u6A21\u578B> <http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier> <http://kevin801006/CH#975543> .
+# 
+# http://kevin801006/CH#修復工具參考文件
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u5177\u53C3\u8003\u6587\u4EF6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u5177\u53C3\u8003\u6587\u4EF6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u5177\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u5228\u5200> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u5177\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u58A8\u6597> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u5177\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u5C3A> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u5177\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u6C34\u7DDA> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u5177\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u6CB9\u6F06\u5237> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u5177\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u92F8\u5B50> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u5177\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u947F\u5B50> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u5177\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "\u5207\u77F3\u6A5F\n\u6C23\u52D5\u9310\u5B50\n\u6C34\u7DDA\n\u925B\u9318\n\u58A8\u6597\n\u7A7A\u58D3\u6A5F\n\u5C3A\n\u6C34\u6876\n\u93DD\u5200\n\u5438\u5875\u5668\n\u7368\u8F2A\u8ECA\n\u5228\u5200\n\u92F8\u5B50\n\u947F\u5B50\n\u6CB9\u6F06\u5237"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://kevin801006/CH#修復工法參考文件_假設工程
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u6CD5\u53C3\u8003\u6587\u4EF6_\u5047\u8A2D\u5DE5\u7A0B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u6CD5\u53C3\u8003\u6587\u4EF6_\u5047\u8A2D\u5DE5\u7A0B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32> .
+# 
+# http://kevin801006/CH#修復工法參考文件_屋脊
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u6CD5\u53C3\u8003\u6587\u4EF6_\u5C4B\u810A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u6CD5\u53C3\u8003\u6587\u4EF6_\u5C4B\u810A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32> .
+# 
+# http://kevin801006/CH#修復工法參考文件_屋面工程_瓦作
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u6CD5\u53C3\u8003\u6587\u4EF6_\u5C4B\u9762\u5DE5\u7A0B_\u74E6\u4F5C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u6CD5\u53C3\u8003\u6587\u4EF6_\u5C4B\u9762\u5DE5\u7A0B_\u74E6\u4F5C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32> .
+# 
+# http://kevin801006/CH#修復工法參考文件_整修工程_地坪
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u6CD5\u53C3\u8003\u6587\u4EF6_\u6574\u4FEE\u5DE5\u7A0B_\u5730\u576A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u6CD5\u53C3\u8003\u6587\u4EF6_\u6574\u4FEE\u5DE5\u7A0B_\u5730\u576A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32> .
+# 
+# http://kevin801006/CH#修復工法參考文件_整修工程_大木作
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u6CD5\u53C3\u8003\u6587\u4EF6_\u6574\u4FEE\u5DE5\u7A0B_\u5927\u6728\u4F5C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u6CD5\u53C3\u8003\u6587\u4EF6_\u6574\u4FEE\u5DE5\u7A0B_\u5927\u6728\u4F5C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u6CD5\u53C3\u8003\u6587\u4EF6_\u6574\u4FEE\u5DE5\u7A0B_\u5927\u6728\u4F5C> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u5927\u6728\u4F5C> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u5DE5\u6CD5\u53C3\u8003\u6587\u4EF6_\u6574\u4FEE\u5DE5\u7A0B_\u5927\u6728\u4F5C> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "\u9078\u6750->\u6253\u622A->\u53BB\u8352->\u5F48\u5404\u5411\u4E2D\u5FC3\u7DDA->\u6DE8\u8EAB\u5228\u5E73->\u5FA9\u5F48\u4E2D\u7DDA->\u958B\u69AB\u65B7\u80A9->\u9001\u4EA4\u5C0F\u6728\u5320\u5E2B\u7D30\u947F->\u8A66\u7D44->\u7D44\u7ACB->\u5176\u4ED6\u8655\u7406->\u5B8C\u6210"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://kevin801006/CH#修復材料參考文件
+<http://kevin801006/CH#\u4FEE\u5FA9\u6750\u6599\u53C3\u8003\u6587\u4EF6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u6750\u6599\u53C3\u8003\u6587\u4EF6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u6750\u6599\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#EPOXY> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u6750\u6599\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u6728\u6599> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u6750\u6599\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u6CB9\u6F06> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u6750\u6599\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "\u82B1\u5D17\u77F3\n\u7070\u6F3F\n\u4E00\u7D1A\u7D05\u78DA\n\u584A\u77F3\n\u6C34\u6CE5\n\u7802\u6F3F\n\u792A\u6BBC\u7070\u6F3F\n\u6728\u6599\nEPOXY\n\u6CB9\u6F06"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://kevin801006/CH#修復結束
+<http://kevin801006/CH#\u4FEE\u5FA9\u7D50\u675F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u7D50\u675F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55> .
+# 
+# http://kevin801006/CH#修復開始
+<http://kevin801006/CH#\u4FEE\u5FA9\u958B\u59CB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u4FEE\u5FA9\u958B\u59CB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55> .
+# 
+# http://kevin801006/CH#假設工程
+<http://kevin801006/CH#\u5047\u8A2D\u5DE5\u7A0B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u5047\u8A2D\u5DE5\u7A0B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29> .
+<http://kevin801006/CH#\u5047\u8A2D\u5DE5\u7A0B> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "\u653E\u6A23->\u8A02\u505A\u5C3A\u5BF8->\u73FE\u5834\u57FA\u790E\u4EBA\u5DE5\u6316\u6398->\u843D\u67F1\u8655\u59A8\u7919\u7269\u6E05\u9664->\u540A\u8ECA\u9032\u5834->\u92FC\u67B6\u7D44\u7ACB->\u92FC\u67B6\u7D44\u88DD->\u5C0F\u6A11\u7D44\u88DD->\u659C\u62C9\u687F\u7D44\u88DD->\u9285\u677F\u5C4B\u9762\u7D44\u88DD->\u5C4B\u677F\u6536\u908A->\u5B8C\u6210"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://kevin801006/CH#別稱
+<http://kevin801006/CH#\u5225\u7A31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u5225\u7A31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55> .
+# 
+# http://kevin801006/CH#刨刀
+<http://kevin801006/CH#\u5228\u5200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u5228\u5200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
+# 
+# http://kevin801006/CH#台灣使用名稱
+<http://kevin801006/CH#\u53F0\u7063\u4F7F\u7528\u540D\u7A31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u53F0\u7063\u4F7F\u7528\u540D\u7A31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55> .
+# 
+# http://kevin801006/CH#各類ID參考文件
+<http://kevin801006/CH#\u5404\u985EID\u53C3\u8003\u6587\u4EF6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u5404\u985EID\u53C3\u8003\u6587\u4EF6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32> .
+<http://kevin801006/CH#\u5404\u985EID\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#ISBN> .
+<http://kevin801006/CH#\u5404\u985EID\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u6A21\u578BID> .
+<http://kevin801006/CH#\u5404\u985EID\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u7167\u7247\u7DE8\u865F> .
+<http://kevin801006/CH#\u5404\u985EID\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u8CC7\u6599\u5EAB\u6D41\u6C34\u865F> .
+<http://kevin801006/CH#\u5404\u985EID\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "\u6A21\u578BID\n\u8CC7\u6599\u5EAB\u6D41\u6C34\u865F\n\u7167\u7247\u7DE8\u865F\nISBN"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://kevin801006/CH#名稱種類參考文件
+<http://kevin801006/CH#\u540D\u7A31\u7A2E\u985E\u53C3\u8003\u6587\u4EF6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u540D\u7A31\u7A2E\u985E\u53C3\u8003\u6587\u4EF6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32> .
+<http://kevin801006/CH#\u540D\u7A31\u7A2E\u985E\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u5225\u7A31> .
+<http://kevin801006/CH#\u540D\u7A31\u7A2E\u985E\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u53F0\u7063\u4F7F\u7528\u540D\u7A31> .
+<http://kevin801006/CH#\u540D\u7A31\u7A2E\u985E\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "\u53F0\u7063\u4F7F\u7528\u540D\u7A31\n\u5225\u7A31"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://kevin801006/CH#塊石
+<http://kevin801006/CH#\u584A\u77F3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u584A\u77F3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+# 
+# http://kevin801006/CH#墨斗
+<http://kevin801006/CH#\u58A8\u6597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u58A8\u6597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
+# 
+# http://kevin801006/CH#大木作
+<http://kevin801006/CH#\u5927\u6728\u4F5C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u5927\u6728\u4F5C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55> .
+# 
+# http://kevin801006/CH#尺
+<http://kevin801006/CH#\u5C3A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u5C3A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
+# 
+# http://kevin801006/CH#屋面工程_屋脊
+<http://kevin801006/CH#\u5C4B\u9762\u5DE5\u7A0B_\u5C4B\u810A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u5C4B\u9762\u5DE5\u7A0B_\u5C4B\u810A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29> .
+<http://kevin801006/CH#\u5C4B\u9762\u5DE5\u7A0B_\u5C4B\u810A> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "\u7D00\u9304\u73FE\u5834\u6A23\u5F0F->\u7C89\u5237\u6572\u9664->\u74E6\u69FD\u588A\u74E6->\u810A\u8EAB\u7C89\u5237\u6253\u5E95->\u8868\u5C64\u7C89\u5237->\u5F69\u7E6A\u653E\u6A23->\u7A7A\u5730\u5316\u8272->\u5B8C\u6210"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://kevin801006/CH#山門
+<http://kevin801006/CH#\u5C71\u9580> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u5C71\u9580> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55> .
+# 
+# http://kevin801006/CH#拜亭
+<http://kevin801006/CH#\u62DC\u4EAD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u62DC\u4EAD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55> .
+# 
+# http://kevin801006/CH#整修工程_大木作
+<http://kevin801006/CH#\u6574\u4FEE\u5DE5\u7A0B_\u5927\u6728\u4F5C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u6574\u4FEE\u5DE5\u7A0B_\u5927\u6728\u4F5C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29> .
+<http://kevin801006/CH#\u6574\u4FEE\u5DE5\u7A0B_\u5927\u6728\u4F5C> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "\u9078\u6750->\u6253\u622A->\u53BB\u8352->\u5F48\u5404\u5411\u4E2D\u5FC3\u7DDA->\u6DE8\u8EAB\u5228\u5E73->\u5FA9\u5F48\u4E2D\u7DDA->\u958B\u69AB\u65B7\u80A9->\u9001\u4EA4\u5C0F\u6728\u5320\u5E2B\u7D30\u947F->\u8A66\u7D44->\u7D44\u7ACB->\u5176\u4ED6\u8655\u7406->\u5B8C\u6210"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://kevin801006/CH#木料
+<http://kevin801006/CH#\u6728\u6599> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u6728\u6599> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+# 
+# http://kevin801006/CH#椽條
+<http://kevin801006/CH#\u693D\u689D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u693D\u689D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41> .
+<http://kevin801006/CH#\u693D\u689D> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://kevin801006/CH#\u53F0\u7063\u4F7F\u7528\u540D\u7A31> .
+# 
+# http://kevin801006/CH#構件1
+<http://kevin801006/CH#\u69CB\u4EF61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u69CB\u4EF61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> .
+<http://kevin801006/CH#\u69CB\u4EF61> <http://kevin801006/CH#is_related_to> <http://kevin801006/CH#\u4E09\u7DAD\u6A21\u578B> .
+<http://kevin801006/CH#\u69CB\u4EF61> <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> <http://kevin801006/CH#\u5228\u5200> .
+<http://kevin801006/CH#\u69CB\u4EF61> <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> <http://kevin801006/CH#\u58A8\u6597> .
+<http://kevin801006/CH#\u69CB\u4EF61> <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> <http://kevin801006/CH#\u5C3A> .
+<http://kevin801006/CH#\u69CB\u4EF61> <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> <http://kevin801006/CH#\u6C34\u7DDA> .
+<http://kevin801006/CH#\u69CB\u4EF61> <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> <http://kevin801006/CH#\u6CB9\u6F06\u5237> .
+<http://kevin801006/CH#\u69CB\u4EF61> <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> <http://kevin801006/CH#\u92F8\u5B50> .
+<http://kevin801006/CH#\u69CB\u4EF61> <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> <http://kevin801006/CH#\u947F\u5B50> .
+<http://kevin801006/CH#\u69CB\u4EF61> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://kevin801006/CH#\u62DC\u4EAD> .
+<http://kevin801006/CH#\u69CB\u4EF61> <http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique> <http://kevin801006/CH#\u5927\u6728\u4F5C> .
+<http://kevin801006/CH#\u69CB\u4EF61> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://kevin801006/CH#\u693D\u689D> .
+<http://kevin801006/CH#\u69CB\u4EF61> <http://www.cidoc-crm.org/cidoc-crm/P88_consists_of> <http://kevin801006/CH#EPOXY> .
+<http://kevin801006/CH#\u69CB\u4EF61> <http://www.cidoc-crm.org/cidoc-crm/P88_consists_of> <http://kevin801006/CH#\u6728\u6599> .
+<http://kevin801006/CH#\u69CB\u4EF61> <http://www.cidoc-crm.org/cidoc-crm/P88_consists_of> <http://kevin801006/CH#\u6CB9\u6F06> .
+<http://kevin801006/CH#\u69CB\u4EF61> <http://www.cidoc-crm.org/cidoc-crm/P92_brought_into_existence> <http://kevin801006/CH#\u958B\u59CB> .
+<http://kevin801006/CH#\u69CB\u4EF61> <http://www.cidoc-crm.org/cidoc-crm/P93_took_out_of_existence> <http://kevin801006/CH#\u7D50\u675F> .
+# 
+# http://kevin801006/CH#構件2
+<http://kevin801006/CH#\u69CB\u4EF62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u69CB\u4EF62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> .
+# 
+# http://kevin801006/CH#構件3
+<http://kevin801006/CH#\u69CB\u4EF63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u69CB\u4EF63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> .
+# 
+# http://kevin801006/CH#模型ID
+<http://kevin801006/CH#\u6A21\u578BID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u6A21\u578BID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55> .
+# 
+# http://kevin801006/CH#水泥
+<http://kevin801006/CH#\u6C34\u6CE5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u6C34\u6CE5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+# 
+# http://kevin801006/CH#水線
+<http://kevin801006/CH#\u6C34\u7DDA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u6C34\u7DDA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
+# 
+# http://kevin801006/CH#油漆
+<http://kevin801006/CH#\u6CB9\u6F06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u6CB9\u6F06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+# 
+# http://kevin801006/CH#油漆刷
+<http://kevin801006/CH#\u6CB9\u6F06\u5237> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u6CB9\u6F06\u5237> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
+# 
+# http://kevin801006/CH#灰漿
+<http://kevin801006/CH#\u7070\u6F3F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u7070\u6F3F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+# 
+# http://kevin801006/CH#照片編號
+<http://kevin801006/CH#\u7167\u7247\u7DE8\u865F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u7167\u7247\u7DE8\u865F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55> .
+# 
+# http://kevin801006/CH#砂漿
+<http://kevin801006/CH#\u7802\u6F3F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u7802\u6F3F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+# 
+# http://kevin801006/CH#礪殼灰將
+<http://kevin801006/CH#\u792A\u6BBC\u7070\u5C07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u792A\u6BBC\u7070\u5C07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+# 
+# http://kevin801006/CH#空間位置參考文件
+<http://kevin801006/CH#\u7A7A\u9593\u4F4D\u7F6E\u53C3\u8003\u6587\u4EF6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u7A7A\u9593\u4F4D\u7F6E\u53C3\u8003\u6587\u4EF6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32> .
+<http://kevin801006/CH#\u7A7A\u9593\u4F4D\u7F6E\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u5C71\u9580> .
+<http://kevin801006/CH#\u7A7A\u9593\u4F4D\u7F6E\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u62DC\u4EAD> .
+<http://kevin801006/CH#\u7A7A\u9593\u4F4D\u7F6E\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "\u5C71\u9580\n\u5929\u4E95\n\u6B63\u6BBF\n\u62DC\u4EAD\n\u5EC2\u623F\n\u904E\u6C34\u5ECA"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://kevin801006/CH#結束
+<http://kevin801006/CH#\u7D50\u675F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u7D50\u675F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64> .
+<http://kevin801006/CH#\u7D50\u675F> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://kevin801006/CH#\u4FEE\u5FA9\u7D50\u675F> .
+# 
+# http://kevin801006/CH#結束存在參考文件
+<http://kevin801006/CH#\u7D50\u675F\u5B58\u5728\u53C3\u8003\u6587\u4EF6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u7D50\u675F\u5B58\u5728\u53C3\u8003\u6587\u4EF6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32> .
+<http://kevin801006/CH#\u7D50\u675F\u5B58\u5728\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u4FEE\u5FA9\u7D50\u675F> .
+<http://kevin801006/CH#\u7D50\u675F\u5B58\u5728\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "\u66F4\u63DB\n\u4FEE\u5FA9\u7D50\u675F\n\u640D\u58DE\n\u71D2\u6BC0"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://kevin801006/CH#結束日期
+<http://kevin801006/CH#\u7D50\u675F\u65E5\u671F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u7D50\u675F\u65E5\u671F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49> .
+<http://kevin801006/CH#\u7D50\u675F\u65E5\u671F> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "\u6C11\u570B\u4E5D\u5341\u4E00\u5E74\u4E09\u6708\u4E03\u65E5\u5B8C\u5DE5"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://kevin801006/CH#花崗石
+<http://kevin801006/CH#\u82B1\u5D17\u77F3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u82B1\u5D17\u77F3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+# 
+# http://kevin801006/CH#資料庫流水號
+<http://kevin801006/CH#\u8CC7\u6599\u5EAB\u6D41\u6C34\u865F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u8CC7\u6599\u5EAB\u6D41\u6C34\u865F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55> .
+# 
+# http://kevin801006/CH#鋸子
+<http://kevin801006/CH#\u92F8\u5B50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u92F8\u5B50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
+# 
+# http://kevin801006/CH#鑿子
+<http://kevin801006/CH#\u947F\u5B50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u947F\u5B50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
+# 
+# http://kevin801006/CH#開始
+<http://kevin801006/CH#\u958B\u59CB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u958B\u59CB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63> .
+<http://kevin801006/CH#\u958B\u59CB> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://kevin801006/CH#\u4FEE\u5FA9\u958B\u59CB> .
+# 
+# http://kevin801006/CH#開始存在參考文件
+<http://kevin801006/CH#\u958B\u59CB\u5B58\u5728\u53C3\u8003\u6587\u4EF6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u958B\u59CB\u5B58\u5728\u53C3\u8003\u6587\u4EF6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_Authority_Document_E32> .
+<http://kevin801006/CH#\u958B\u59CB\u5B58\u5728\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P71_lists> <http://kevin801006/CH#\u4FEE\u5FA9\u958B\u59CB> .
+<http://kevin801006/CH#\u958B\u59CB\u5B58\u5728\u53C3\u8003\u6587\u4EF6> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "\u59CB\u5EFA\n\u4FEE\u5FA9\u958B\u59CB\n\u88FD\u9020\n\u4F4D\u79FB"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://kevin801006/CH#開始日期
+<http://kevin801006/CH#\u958B\u59CB\u65E5\u671F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#\u958B\u59CB\u65E5\u671F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49> .
+<http://kevin801006/CH#\u958B\u59CB\u65E5\u671F> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "\u6C11\u570B\u516B\u5341\u4E5D\u5E74\u516D\u6708\u4E00\u65E5\u958B\u5DE5"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://kevin801006/CH#975543
+<http://kevin801006/CH#975543> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://kevin801006/CH#975543> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42> .
+<http://kevin801006/CH#975543> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://kevin801006/CH#\u6A21\u578BID> .
 # 
 # Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
