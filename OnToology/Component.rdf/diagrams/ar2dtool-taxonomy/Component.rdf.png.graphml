@@ -5,7 +5,7 @@
    <key for="edge" id="d2" yfiles.type="edgegraphics" />
    <key attr.name="description" attr.type="string" for="edge" id="d3" />
    <key for="graphml" id="d4" yfiles.type="resources" />
-   <graph edgedefault="directed" id="G" parse.edges="144" parse.nodes="133" parse.order="free">
+   <graph edgedefault="directed" id="G" parse.edges="143" parse.nodes="132" parse.order="free">
       <node id="nid_cidoc-crm:E78_Collection">
          <data key="d0">
             <y:ShapeNode>
@@ -169,13 +169,13 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_E62">
+      <node id="nid_:Description_E62">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="880.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="160.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_E62</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Description_E62</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
@@ -193,7 +193,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf5" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_E62" target="nid_component:String_E62">
+    <edge id="eid_rdfs:subClassOf5" source="nid_:Description_E62" target="nid_component:String_E62">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -204,19 +204,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18">
+      <node id="nid_:Element_E18">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="840.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="120.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Element_E18</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf6" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18" target="nid_cidoc-crm:E18_Physical_Thing">
+    <edge id="eid_rdfs:subClassOf6" source="nid_:Element_E18" target="nid_cidoc-crm:E18_Physical_Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -355,13 +355,13 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_Authority_Document_E32">
+      <node id="nid_:Beginning_of_Existence_Type_Authority_Document_E32">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1230.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="510.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_Authority_Document_E32</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Beginning_of_Existence_Type_Authority_Document_E32</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
@@ -379,7 +379,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf11" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
+    <edge id="eid_rdfs:subClassOf11" source="nid_:Beginning_of_Existence_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -390,19 +390,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_Authority_Document_E32">
+      <node id="nid_:Description_Type_Authority_Document_E32">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1120.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="400.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_Authority_Document_E32</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Description_Type_Authority_Document_E32</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf12" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
+    <edge id="eid_rdfs:subClassOf12" source="nid_:Description_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -506,29 +506,6 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.co-ode.org/ontologies/ont.owl#Name_Type">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="500.0" x="0.0" y="0.0" />
-               <y:Fill color="#000000" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.co-ode.org/ontologies/ont.owl#Name_Type</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdfs:subClassOf16" source="nid_http://www.co-ode.org/ontologies/ont.owl#Name_Type" target="nid_cidoc-crm:E28_Conceptual_Object">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
       <node id="nid_cidoc-crm:E39_Actor">
          <data key="d0">
             <y:ShapeNode>
@@ -553,7 +530,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf17" source="nid_cidoc-crm:E39_Actor" target="nid_cidoc-crm:E77_Persistent_Item">
+    <edge id="eid_rdfs:subClassOf16" source="nid_cidoc-crm:E39_Actor" target="nid_cidoc-crm:E77_Persistent_Item">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -564,19 +541,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41">
+      <node id="nid_:Name_E41">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="810.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="90.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Name_E41</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf18" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41" target="nid_cidoc-crm:E41_Appellation">
+    <edge id="eid_rdfs:subClassOf17" source="nid_:Name_E41" target="nid_cidoc-crm:E41_Appellation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -587,19 +564,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32">
+      <node id="nid_:Construction_Technique_Type_Authority_Document_E32">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1230.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="510.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Construction_Technique_Type_Authority_Document_E32</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf19" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
+    <edge id="eid_rdfs:subClassOf18" source="nid_:Construction_Technique_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -610,13 +587,13 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58">
+      <node id="nid_:Measurement_Unit_E58">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="930.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="210.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Measurement_Unit_E58</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
@@ -634,7 +611,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf20" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Measurement_Unit_E58" target="nid_cidoc-crm:E58_Measurement_Unit">
+    <edge id="eid_rdfs:subClassOf19" source="nid_:Measurement_Unit_E58" target="nid_cidoc-crm:E58_Measurement_Unit">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -657,7 +634,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf21" source="nid_cidoc-crm:E72_Legal_Object" target="nid_cidoc-crm:E70_Thing">
+    <edge id="eid_rdfs:subClassOf20" source="nid_cidoc-crm:E72_Legal_Object" target="nid_cidoc-crm:E70_Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -692,7 +669,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf22" source="nid_cidoc-crm:E84_Information_Carrier" target="nid_cidoc-crm:E22_Man-Made_Object">
+    <edge id="eid_rdfs:subClassOf21" source="nid_cidoc-crm:E84_Information_Carrier" target="nid_cidoc-crm:E22_Man-Made_Object">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -703,19 +680,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32">
+      <node id="nid_:End_of_Existence_Type_Authority_Document_E32">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1170.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="450.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:End_of_Existence_Type_Authority_Document_E32</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf23" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
+    <edge id="eid_rdfs:subClassOf22" source="nid_:End_of_Existence_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -726,7 +703,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf24" source="nid_cidoc-crm:E22_Man-Made_Object" target="nid_cidoc-crm:E24_Physical_Man-Made_Thing">
+    <edge id="eid_rdfs:subClassOf23" source="nid_cidoc-crm:E22_Man-Made_Object" target="nid_cidoc-crm:E24_Physical_Man-Made_Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -749,7 +726,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf25" source="nid_cidoc-crm:E22_Man-Made_Object" target="nid_cidoc-crm:E19_Physical_Object">
+    <edge id="eid_rdfs:subClassOf24" source="nid_cidoc-crm:E22_Man-Made_Object" target="nid_cidoc-crm:E19_Physical_Object">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -760,19 +737,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E89">
+      <node id="nid_:Management_Recommendation_E89">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1020.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="300.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E89</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Management_Recommendation_E89</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf26" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Management_Recommendation_E89" target="nid_cidoc-crm:E89_Propositional_Object">
+    <edge id="eid_rdfs:subClassOf25" source="nid_:Management_Recommendation_E89" target="nid_cidoc-crm:E89_Propositional_Object">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -783,13 +760,13 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55">
+      <node id="nid_:Component_Type_E55">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="910.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="190.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Component_Type_E55</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
@@ -807,7 +784,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf27" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55" target="nid_cidoc-crm:E55_Type">
+    <edge id="eid_rdfs:subClassOf26" source="nid_:Component_Type_E55" target="nid_cidoc-crm:E55_Type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -818,19 +795,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55">
+      <node id="nid_:End_of_Existence_Type_E55">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="980.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:End_of_Existence_Type_E55</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf28" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55" target="nid_cidoc-crm:E55_Type">
+    <edge id="eid_rdfs:subClassOf27" source="nid_:End_of_Existence_Type_E55" target="nid_cidoc-crm:E55_Type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -853,7 +830,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf29" source="nid_cidoc-crm:E36_Visual_Item" target="nid_cidoc-crm:E73_Information_Object">
+    <edge id="eid_rdfs:subClassOf28" source="nid_cidoc-crm:E36_Visual_Item" target="nid_cidoc-crm:E73_Information_Object">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -888,7 +865,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf30" source="nid_cidoc-crm:E5_Event" target="nid_cidoc-crm:E4_Period">
+    <edge id="eid_rdfs:subClassOf29" source="nid_cidoc-crm:E5_Event" target="nid_cidoc-crm:E4_Period">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -899,7 +876,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf31" source="nid_cidoc-crm:E90_Symbolic_Object" target="nid_cidoc-crm:E72_Legal_Object">
+    <edge id="eid_rdfs:subClassOf30" source="nid_cidoc-crm:E90_Symbolic_Object" target="nid_cidoc-crm:E72_Legal_Object">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -910,7 +887,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf32" source="nid_cidoc-crm:E90_Symbolic_Object" target="nid_cidoc-crm:E28_Conceptual_Object">
+    <edge id="eid_rdfs:subClassOf31" source="nid_cidoc-crm:E90_Symbolic_Object" target="nid_cidoc-crm:E28_Conceptual_Object">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -945,7 +922,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf33" source="nid_cidoc-crm:E48_Place_Name" target="nid_cidoc-crm:E44_Place_Appellation">
+    <edge id="eid_rdfs:subClassOf32" source="nid_cidoc-crm:E48_Place_Name" target="nid_cidoc-crm:E44_Place_Appellation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -968,7 +945,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf34" source="nid_cidoc-crm:E8_Acquisition" target="nid_cidoc-crm:E7_Activity">
+    <edge id="eid_rdfs:subClassOf33" source="nid_cidoc-crm:E8_Acquisition" target="nid_cidoc-crm:E7_Activity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -979,19 +956,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_Authority_Document_E32">
+      <node id="nid_:Disturbance_Authority_Document_E32">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1070.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="350.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_Authority_Document_E32</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Disturbance_Authority_Document_E32</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf35" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
+    <edge id="eid_rdfs:subClassOf34" source="nid_:Disturbance_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1026,7 +1003,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf36" source="nid_cidoc-crm:E81_Transformation" target="nid_cidoc-crm:E63_Beginning_of_Existence">
+    <edge id="eid_rdfs:subClassOf35" source="nid_cidoc-crm:E81_Transformation" target="nid_cidoc-crm:E63_Beginning_of_Existence">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1037,7 +1014,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf37" source="nid_cidoc-crm:E81_Transformation" target="nid_cidoc-crm:E64_End_of_Existence">
+    <edge id="eid_rdfs:subClassOf36" source="nid_cidoc-crm:E81_Transformation" target="nid_cidoc-crm:E64_End_of_Existence">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1048,19 +1025,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55">
+      <node id="nid_:Threat_E55">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="830.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="110.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Threat_E55</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf38" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_E55" target="nid_cidoc-crm:E55_Type">
+    <edge id="eid_rdfs:subClassOf37" source="nid_:Threat_E55" target="nid_cidoc-crm:E55_Type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1071,13 +1048,13 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54">
+      <node id="nid_:Dimension_E54">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="860.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="140.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Dimension_E54</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
@@ -1095,7 +1072,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf39" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Dimension_E54" target="nid_cidoc-crm:E54_Dimension">
+    <edge id="eid_rdfs:subClassOf38" source="nid_:Dimension_E54" target="nid_cidoc-crm:E54_Dimension">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1118,7 +1095,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf40" source="nid_cidoc-crm:E67_Birth" target="nid_cidoc-crm:E63_Beginning_of_Existence">
+    <edge id="eid_rdfs:subClassOf39" source="nid_cidoc-crm:E67_Birth" target="nid_cidoc-crm:E63_Beginning_of_Existence">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1129,19 +1106,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64">
+      <node id="nid_:End_of_Existence_E64">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="930.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="210.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:End_of_Existence_E64</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf41" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64" target="nid_cidoc-crm:E64_End_of_Existence">
+    <edge id="eid_rdfs:subClassOf40" source="nid_:End_of_Existence_E64" target="nid_cidoc-crm:E64_End_of_Existence">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1164,7 +1141,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf42" source="nid_cidoc-crm:E13_Attribute_Assignment" target="nid_cidoc-crm:E7_Activity">
+    <edge id="eid_rdfs:subClassOf41" source="nid_cidoc-crm:E13_Attribute_Assignment" target="nid_cidoc-crm:E7_Activity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1187,7 +1164,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf43" source="nid_cidoc-crm:E57_Material" target="nid_cidoc-crm:E55_Type">
+    <edge id="eid_rdfs:subClassOf42" source="nid_cidoc-crm:E57_Material" target="nid_cidoc-crm:E55_Type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1198,7 +1175,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf44" source="nid_cidoc-crm:E70_Thing" target="nid_cidoc-crm:E77_Persistent_Item">
+    <edge id="eid_rdfs:subClassOf43" source="nid_cidoc-crm:E70_Thing" target="nid_cidoc-crm:E77_Persistent_Item">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1209,13 +1186,13 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42">
+      <node id="nid_:External_Xref_E42">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="900.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="180.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:External_Xref_E42</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
@@ -1233,7 +1210,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf45" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42" target="nid_cidoc-crm:E42_Identifier">
+    <edge id="eid_rdfs:subClassOf44" source="nid_:External_Xref_E42" target="nid_cidoc-crm:E42_Identifier">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1244,7 +1221,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf46" source="nid_cidoc-crm:E44_Place_Appellation" target="nid_cidoc-crm:E41_Appellation">
+    <edge id="eid_rdfs:subClassOf45" source="nid_cidoc-crm:E44_Place_Appellation" target="nid_cidoc-crm:E41_Appellation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1255,19 +1232,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32">
+      <node id="nid_:Name_Type_Authority_Document_E32">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1050.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="330.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Name_Type_Authority_Document_E32</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf47" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
+    <edge id="eid_rdfs:subClassOf46" source="nid_:Name_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1278,7 +1255,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf48" source="nid_cidoc-crm:E64_End_of_Existence" target="nid_cidoc-crm:E5_Event">
+    <edge id="eid_rdfs:subClassOf47" source="nid_cidoc-crm:E64_End_of_Existence" target="nid_cidoc-crm:E5_Event">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1289,7 +1266,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf49" source="nid_cidoc-crm:E71_Man-Made_Thing" target="nid_cidoc-crm:E70_Thing">
+    <edge id="eid_rdfs:subClassOf48" source="nid_cidoc-crm:E71_Man-Made_Thing" target="nid_cidoc-crm:E70_Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1300,19 +1277,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_Authority_Document_E32">
+      <node id="nid_:Recommendation_Type_Authority_Document_E32">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1150.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="430.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_Authority_Document_E32</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Recommendation_Type_Authority_Document_E32</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf50" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
+    <edge id="eid_rdfs:subClassOf49" source="nid_:Recommendation_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1323,7 +1300,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf51" source="nid_cidoc-crm:E54_Dimension" target="nid_cidoc-crm:E1_CRM_Entity">
+    <edge id="eid_rdfs:subClassOf50" source="nid_cidoc-crm:E54_Dimension" target="nid_cidoc-crm:E1_CRM_Entity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1334,19 +1311,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32">
+      <node id="nid_:Tool_Authority_Document_E32">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1000.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="280.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Tool_Authority_Document_E32</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf52" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
+    <edge id="eid_rdfs:subClassOf51" source="nid_:Tool_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1369,7 +1346,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf53" source="nid_cidoc-crm:E38_Image" target="nid_cidoc-crm:E36_Visual_Item">
+    <edge id="eid_rdfs:subClassOf52" source="nid_cidoc-crm:E38_Image" target="nid_cidoc-crm:E36_Visual_Item">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1392,7 +1369,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf54" source="nid_cidoc-crm:E47_Spatial_Coordinates" target="nid_cidoc-crm:E44_Place_Appellation">
+    <edge id="eid_rdfs:subClassOf53" source="nid_cidoc-crm:E47_Spatial_Coordinates" target="nid_cidoc-crm:E44_Place_Appellation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1415,7 +1392,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf55" source="nid_cidoc-crm:E37_Mark" target="nid_cidoc-crm:E36_Visual_Item">
+    <edge id="eid_rdfs:subClassOf54" source="nid_cidoc-crm:E37_Mark" target="nid_cidoc-crm:E36_Visual_Item">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1438,7 +1415,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf56" source="nid_cidoc-crm:E52_Time-Span" target="nid_cidoc-crm:E1_CRM_Entity">
+    <edge id="eid_rdfs:subClassOf55" source="nid_cidoc-crm:E52_Time-Span" target="nid_cidoc-crm:E1_CRM_Entity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1449,19 +1426,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_Authority_Document_E32">
+      <node id="nid_:Condition_Type_Authority_Document_E32">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1100.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="380.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_Authority_Document_E32</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Condition_Type_Authority_Document_E32</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf57" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
+    <edge id="eid_rdfs:subClassOf56" source="nid_:Condition_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1496,7 +1473,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf58" source="nid_cidoc-crm:E25_Man-Made_Feature" target="nid_cidoc-crm:E26_Physical_Feature">
+    <edge id="eid_rdfs:subClassOf57" source="nid_cidoc-crm:E25_Man-Made_Feature" target="nid_cidoc-crm:E26_Physical_Feature">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1507,7 +1484,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf59" source="nid_cidoc-crm:E25_Man-Made_Feature" target="nid_cidoc-crm:E24_Physical_Man-Made_Thing">
+    <edge id="eid_rdfs:subClassOf58" source="nid_cidoc-crm:E25_Man-Made_Feature" target="nid_cidoc-crm:E24_Physical_Man-Made_Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1530,7 +1507,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf60" source="nid_cidoc-crm:E10_Transfer_of_Custody" target="nid_cidoc-crm:E7_Activity">
+    <edge id="eid_rdfs:subClassOf59" source="nid_cidoc-crm:E10_Transfer_of_Custody" target="nid_cidoc-crm:E7_Activity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1541,19 +1518,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55">
+      <node id="nid_:Condition_Type_E55">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="910.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="190.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Condition_Type_E55</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf61" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Type_E55" target="nid_cidoc-crm:E55_Type">
+    <edge id="eid_rdfs:subClassOf60" source="nid_:Condition_Type_E55" target="nid_cidoc-crm:E55_Type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1564,7 +1541,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf62" source="nid_cidoc-crm:E7_Activity" target="nid_cidoc-crm:E5_Event">
+    <edge id="eid_rdfs:subClassOf61" source="nid_cidoc-crm:E7_Activity" target="nid_cidoc-crm:E5_Event">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1587,7 +1564,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf63" source="nid_cidoc-crm:E80_Part_Removal" target="nid_cidoc-crm:E11_Modification">
+    <edge id="eid_rdfs:subClassOf62" source="nid_cidoc-crm:E80_Part_Removal" target="nid_cidoc-crm:E11_Modification">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1610,7 +1587,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf64" source="nid_cidoc-crm:E79_Part_Addition" target="nid_cidoc-crm:E11_Modification">
+    <edge id="eid_rdfs:subClassOf63" source="nid_cidoc-crm:E79_Part_Addition" target="nid_cidoc-crm:E11_Modification">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1621,13 +1598,13 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29">
+      <node id="nid_:Construction_Technique_E29">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="990.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Construction_Technique_E29</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
@@ -1645,7 +1622,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf65" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29" target="nid_cidoc-crm:E29_Design_or_Procedure">
+    <edge id="eid_rdfs:subClassOf64" source="nid_:Construction_Technique_E29" target="nid_cidoc-crm:E29_Design_or_Procedure">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1680,7 +1657,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf66" source="nid_cidoc-crm:E45_Address" target="nid_cidoc-crm:E51_Contact_Point">
+    <edge id="eid_rdfs:subClassOf65" source="nid_cidoc-crm:E45_Address" target="nid_cidoc-crm:E51_Contact_Point">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1691,7 +1668,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf67" source="nid_cidoc-crm:E45_Address" target="nid_cidoc-crm:E44_Place_Appellation">
+    <edge id="eid_rdfs:subClassOf66" source="nid_cidoc-crm:E45_Address" target="nid_cidoc-crm:E44_Place_Appellation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1702,7 +1679,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf68" source="nid_cidoc-crm:E29_Design_or_Procedure" target="nid_cidoc-crm:E73_Information_Object">
+    <edge id="eid_rdfs:subClassOf67" source="nid_cidoc-crm:E29_Design_or_Procedure" target="nid_cidoc-crm:E73_Information_Object">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1725,7 +1702,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf69" source="nid_cidoc-crm:E27_Site" target="nid_cidoc-crm:E26_Physical_Feature">
+    <edge id="eid_rdfs:subClassOf68" source="nid_cidoc-crm:E27_Site" target="nid_cidoc-crm:E26_Physical_Feature">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1760,7 +1737,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf70" source="nid_cidoc-crm:E3_Condition_State" target="nid_cidoc-crm:E2_Temporal_Entity">
+    <edge id="eid_rdfs:subClassOf69" source="nid_cidoc-crm:E3_Condition_State" target="nid_cidoc-crm:E2_Temporal_Entity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1771,7 +1748,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf71" source="nid_cidoc-crm:E55_Type" target="nid_cidoc-crm:E28_Conceptual_Object">
+    <edge id="eid_rdfs:subClassOf70" source="nid_cidoc-crm:E55_Type" target="nid_cidoc-crm:E28_Conceptual_Object">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1782,19 +1759,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_Authority_Document_E32">
+      <node id="nid_:Threat_Authority_Document_E32">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1020.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="300.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_Authority_Document_E32</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Threat_Authority_Document_E32</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf72" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Threat_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
+    <edge id="eid_rdfs:subClassOf71" source="nid_:Threat_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1805,7 +1782,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf73" source="nid_cidoc-crm:E63_Beginning_of_Existence" target="nid_cidoc-crm:E5_Event">
+    <edge id="eid_rdfs:subClassOf72" source="nid_cidoc-crm:E63_Beginning_of_Existence" target="nid_cidoc-crm:E5_Event">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1816,19 +1793,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49">
+      <node id="nid_:End_Date_of_Existence_E49">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="980.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:End_Date_of_Existence_E49</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf74" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49" target="nid_cidoc-crm:E49_Time_Appellation">
+    <edge id="eid_rdfs:subClassOf73" source="nid_:End_Date_of_Existence_E49" target="nid_cidoc-crm:E49_Time_Appellation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1839,19 +1816,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57">
+      <node id="nid_:Material_E57">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="850.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="130.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Material_E57</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf75" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57" target="nid_cidoc-crm:E57_Material">
+    <edge id="eid_rdfs:subClassOf74" source="nid_:Material_E57" target="nid_cidoc-crm:E57_Material">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1862,7 +1839,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf76" source="nid_cidoc-crm:E77_Persistent_Item" target="nid_cidoc-crm:E1_CRM_Entity">
+    <edge id="eid_rdfs:subClassOf75" source="nid_cidoc-crm:E77_Persistent_Item" target="nid_cidoc-crm:E1_CRM_Entity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1885,7 +1862,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf77" source="nid_cidoc-crm:E56_Language" target="nid_cidoc-crm:E55_Type">
+    <edge id="eid_rdfs:subClassOf76" source="nid_cidoc-crm:E56_Language" target="nid_cidoc-crm:E55_Type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1896,19 +1873,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Description_E62">
+      <node id="nid_:Condition_Description_E62">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="980.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Description_E62</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Condition_Description_E62</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf78" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Description_E62" target="nid_component:String_E62">
+    <edge id="eid_rdfs:subClassOf77" source="nid_:Condition_Description_E62" target="nid_component:String_E62">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1919,19 +1896,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1">
+      <node id="nid_:External_Resource_E1">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="930.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="210.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:External_Resource_E1</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf79" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1" target="nid_cidoc-crm:E1_CRM_Entity">
+    <edge id="eid_rdfs:subClassOf78" source="nid_:External_Resource_E1" target="nid_cidoc-crm:E1_CRM_Entity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1942,7 +1919,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf80" source="nid_cidoc-crm:E58_Measurement_Unit" target="nid_cidoc-crm:E55_Type">
+    <edge id="eid_rdfs:subClassOf79" source="nid_cidoc-crm:E58_Measurement_Unit" target="nid_cidoc-crm:E55_Type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1965,7 +1942,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf81" source="nid_cidoc-crm:E9_Move" target="nid_cidoc-crm:E7_Activity">
+    <edge id="eid_rdfs:subClassOf80" source="nid_cidoc-crm:E9_Move" target="nid_cidoc-crm:E7_Activity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1976,7 +1953,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf82" source="nid_cidoc-crm:E41_Appellation" target="nid_cidoc-crm:E90_Symbolic_Object">
+    <edge id="eid_rdfs:subClassOf81" source="nid_cidoc-crm:E41_Appellation" target="nid_cidoc-crm:E90_Symbolic_Object">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1987,19 +1964,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49">
+      <node id="nid_:Date_Condition_Assessment_E49">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1020.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="300.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Date_Condition_Assessment_E49</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf83" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Date_Condition_Assessment_E49" target="nid_cidoc-crm:E49_Time_Appellation">
+    <edge id="eid_rdfs:subClassOf82" source="nid_:Date_Condition_Assessment_E49" target="nid_cidoc-crm:E49_Time_Appellation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2010,19 +1987,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55">
+      <node id="nid_:Description_Type_E55">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="930.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="210.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Description_Type_E55</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf84" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Description_Type_E55" target="nid_cidoc-crm:E55_Type">
+    <edge id="eid_rdfs:subClassOf83" source="nid_:Description_Type_E55" target="nid_cidoc-crm:E55_Type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2033,19 +2010,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55">
+      <node id="nid_:Element_Classification_Type_E55">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1040.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="320.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Element_Classification_Type_E55</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf85" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_E55" target="nid_cidoc-crm:E55_Type">
+    <edge id="eid_rdfs:subClassOf84" source="nid_:Element_Classification_Type_E55" target="nid_cidoc-crm:E55_Type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2068,7 +2045,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf86" source="nid_cidoc-crm:E46_Section_Definition" target="nid_cidoc-crm:E44_Place_Appellation">
+    <edge id="eid_rdfs:subClassOf85" source="nid_cidoc-crm:E46_Section_Definition" target="nid_cidoc-crm:E44_Place_Appellation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2091,7 +2068,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf87" source="nid_cidoc-crm:E15_Identifier_Assignment" target="nid_cidoc-crm:E13_Attribute_Assignment">
+    <edge id="eid_rdfs:subClassOf86" source="nid_cidoc-crm:E15_Identifier_Assignment" target="nid_cidoc-crm:E13_Attribute_Assignment">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2102,19 +2079,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32">
+      <node id="nid_:Element_Classification_Type_Authority_Document_E32">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1230.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="510.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Element_Classification_Type_Authority_Document_E32</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf88" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_Classification_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
+    <edge id="eid_rdfs:subClassOf87" source="nid_:Element_Classification_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2125,19 +2102,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32">
+      <node id="nid_:External_Xref_Type_Authority_Document_E32">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1140.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="420.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:External_Xref_Type_Authority_Document_E32</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf89" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
+    <edge id="eid_rdfs:subClassOf88" source="nid_:External_Xref_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2160,7 +2137,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf90" source="nid_cidoc-crm:E82_Actor_Appellation" target="nid_cidoc-crm:E41_Appellation">
+    <edge id="eid_rdfs:subClassOf89" source="nid_cidoc-crm:E82_Actor_Appellation" target="nid_cidoc-crm:E41_Appellation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2195,7 +2172,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf91" source="nid_cidoc-crm:E34_Inscription" target="nid_cidoc-crm:E33_Linguistic_Object">
+    <edge id="eid_rdfs:subClassOf90" source="nid_cidoc-crm:E34_Inscription" target="nid_cidoc-crm:E33_Linguistic_Object">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2206,7 +2183,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf92" source="nid_cidoc-crm:E34_Inscription" target="nid_cidoc-crm:E37_Mark">
+    <edge id="eid_rdfs:subClassOf91" source="nid_cidoc-crm:E34_Inscription" target="nid_cidoc-crm:E37_Mark">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2217,19 +2194,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55">
+      <node id="nid_:Construction_Technique_Type_E55">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1040.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="320.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Construction_Technique_Type_E55</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf93" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55" target="nid_cidoc-crm:E55_Type">
+    <edge id="eid_rdfs:subClassOf92" source="nid_:Construction_Technique_Type_E55" target="nid_cidoc-crm:E55_Type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2240,7 +2217,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf94" source="nid_cidoc-crm:E24_Physical_Man-Made_Thing" target="nid_cidoc-crm:E18_Physical_Thing">
+    <edge id="eid_rdfs:subClassOf93" source="nid_cidoc-crm:E24_Physical_Man-Made_Thing" target="nid_cidoc-crm:E18_Physical_Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2251,7 +2228,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf95" source="nid_cidoc-crm:E24_Physical_Man-Made_Thing" target="nid_cidoc-crm:E71_Man-Made_Thing">
+    <edge id="eid_rdfs:subClassOf94" source="nid_cidoc-crm:E24_Physical_Man-Made_Thing" target="nid_cidoc-crm:E71_Man-Made_Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2262,7 +2239,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf96" source="nid_cidoc-crm:E26_Physical_Feature" target="nid_cidoc-crm:E18_Physical_Thing">
+    <edge id="eid_rdfs:subClassOf95" source="nid_cidoc-crm:E26_Physical_Feature" target="nid_cidoc-crm:E18_Physical_Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2285,7 +2262,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf97" source="nid_cidoc-crm:E20_Biological_Object" target="nid_cidoc-crm:E19_Physical_Object">
+    <edge id="eid_rdfs:subClassOf96" source="nid_cidoc-crm:E20_Biological_Object" target="nid_cidoc-crm:E19_Physical_Object">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2308,7 +2285,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf98" source="nid_cidoc-crm:E74_Group" target="nid_cidoc-crm:E39_Actor">
+    <edge id="eid_rdfs:subClassOf97" source="nid_cidoc-crm:E74_Group" target="nid_cidoc-crm:E39_Actor">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2331,7 +2308,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf99" source="nid_cidoc-crm:E21_Person" target="nid_cidoc-crm:E39_Actor">
+    <edge id="eid_rdfs:subClassOf98" source="nid_cidoc-crm:E21_Person" target="nid_cidoc-crm:E39_Actor">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2342,7 +2319,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf100" source="nid_cidoc-crm:E21_Person" target="nid_cidoc-crm:E20_Biological_Object">
+    <edge id="eid_rdfs:subClassOf99" source="nid_cidoc-crm:E21_Person" target="nid_cidoc-crm:E20_Biological_Object">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2365,7 +2342,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf101" source="nid_cidoc-crm:E40_Legal_Body" target="nid_cidoc-crm:E74_Group">
+    <edge id="eid_rdfs:subClassOf100" source="nid_cidoc-crm:E40_Legal_Body" target="nid_cidoc-crm:E74_Group">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2376,19 +2353,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71">
+      <node id="nid_:Tool_E71">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="810.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="90.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Tool_E71</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf102" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71" target="nid_cidoc-crm:E71_Man-Made_Thing">
+    <edge id="eid_rdfs:subClassOf101" source="nid_:Tool_E71" target="nid_cidoc-crm:E71_Man-Made_Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2399,7 +2376,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf103" source="nid_component:String_E62" target="nid_component:Primitive_Value_E59">
+    <edge id="eid_rdfs:subClassOf102" source="nid_component:String_E62" target="nid_component:Primitive_Value_E59">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2410,19 +2387,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55">
+      <node id="nid_:Recommendation_Type_E55">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="960.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="240.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Recommendation_Type_E55</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf104" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Recommendation_Type_E55" target="nid_cidoc-crm:E55_Type">
+    <edge id="eid_rdfs:subClassOf103" source="nid_:Recommendation_Type_E55" target="nid_cidoc-crm:E55_Type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2445,7 +2422,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf105" source="nid_cidoc-crm:E14_Condition_Assessment" target="nid_cidoc-crm:E13_Attribute_Assignment">
+    <edge id="eid_rdfs:subClassOf104" source="nid_cidoc-crm:E14_Condition_Assessment" target="nid_cidoc-crm:E13_Attribute_Assignment">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2456,7 +2433,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf106" source="nid_cidoc-crm:E4_Period" target="nid_cidoc-crm:E2_Temporal_Entity">
+    <edge id="eid_rdfs:subClassOf105" source="nid_cidoc-crm:E4_Period" target="nid_cidoc-crm:E2_Temporal_Entity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2479,7 +2456,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf107" source="nid_cidoc-crm:E30_Right" target="nid_cidoc-crm:E89_Propositional_Object">
+    <edge id="eid_rdfs:subClassOf106" source="nid_cidoc-crm:E30_Right" target="nid_cidoc-crm:E89_Propositional_Object">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2490,7 +2467,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf108" source="nid_cidoc-crm:E19_Physical_Object" target="nid_cidoc-crm:E18_Physical_Thing">
+    <edge id="eid_rdfs:subClassOf107" source="nid_cidoc-crm:E19_Physical_Object" target="nid_cidoc-crm:E18_Physical_Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2513,7 +2490,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf109" source="nid_cidoc-crm:E17_Type_Assignment" target="nid_cidoc-crm:E13_Attribute_Assignment">
+    <edge id="eid_rdfs:subClassOf108" source="nid_cidoc-crm:E17_Type_Assignment" target="nid_cidoc-crm:E13_Attribute_Assignment">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2524,7 +2501,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf110" source="nid_cidoc-crm:E42_Identifier" target="nid_cidoc-crm:E41_Appellation">
+    <edge id="eid_rdfs:subClassOf109" source="nid_cidoc-crm:E42_Identifier" target="nid_cidoc-crm:E41_Appellation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2535,7 +2512,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf111" source="nid_cidoc-crm:E2_Temporal_Entity" target="nid_cidoc-crm:E1_CRM_Entity">
+    <edge id="eid_rdfs:subClassOf110" source="nid_cidoc-crm:E2_Temporal_Entity" target="nid_cidoc-crm:E1_CRM_Entity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2546,13 +2523,13 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Number_E60">
+      <node id="nid_:Number_E60">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="830.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="110.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Number_E60</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Number_E60</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
@@ -2570,7 +2547,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf112" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Number_E60" target="nid_component:Number_E60">
+    <edge id="eid_rdfs:subClassOf111" source="nid_:Number_E60" target="nid_component:Number_E60">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2593,7 +2570,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf113" source="nid_cidoc-crm:E50_Date" target="nid_cidoc-crm:E49_Time_Appellation">
+    <edge id="eid_rdfs:subClassOf112" source="nid_cidoc-crm:E50_Date" target="nid_cidoc-crm:E49_Time_Appellation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2604,19 +2581,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55">
+      <node id="nid_:Beginning_of_Existence_Type_E55">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1040.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="320.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Beginning_of_Existence_Type_E55</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf114" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55" target="nid_cidoc-crm:E55_Type">
+    <edge id="eid_rdfs:subClassOf113" source="nid_:Beginning_of_Existence_Type_E55" target="nid_cidoc-crm:E55_Type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2627,19 +2604,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55">
+      <node id="nid_:Disturbance_E55">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="880.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="160.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Disturbance_E55</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf115" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Disturbance_E55" target="nid_cidoc-crm:E55_Type">
+    <edge id="eid_rdfs:subClassOf114" source="nid_:Disturbance_E55" target="nid_cidoc-crm:E55_Type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2650,7 +2627,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf116" source="nid_cidoc-crm:E51_Contact_Point" target="nid_cidoc-crm:E41_Appellation">
+    <edge id="eid_rdfs:subClassOf115" source="nid_cidoc-crm:E51_Contact_Point" target="nid_cidoc-crm:E41_Appellation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2661,7 +2638,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf117" source="nid_component:Number_E60" target="nid_component:Primitive_Value_E59">
+    <edge id="eid_rdfs:subClassOf116" source="nid_component:Number_E60" target="nid_component:Primitive_Value_E59">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2684,7 +2661,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf118" source="nid_cidoc-crm:E86_Leaving" target="nid_cidoc-crm:E7_Activity">
+    <edge id="eid_rdfs:subClassOf117" source="nid_cidoc-crm:E86_Leaving" target="nid_cidoc-crm:E7_Activity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2695,19 +2672,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32">
+      <node id="nid_:Material_Authority_Document_E32">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1040.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="320.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Material_Authority_Document_E32</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf119" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
+    <edge id="eid_rdfs:subClassOf118" source="nid_:Material_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2718,19 +2695,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55">
+      <node id="nid_:Name_Type_E55">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="860.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="140.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Name_Type_E55</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf120" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55" target="nid_cidoc-crm:E55_Type">
+    <edge id="eid_rdfs:subClassOf119" source="nid_:Name_Type_E55" target="nid_cidoc-crm:E55_Type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2741,7 +2718,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf121" source="nid_cidoc-crm:E33_Linguistic_Object" target="nid_cidoc-crm:E73_Information_Object">
+    <edge id="eid_rdfs:subClassOf120" source="nid_cidoc-crm:E33_Linguistic_Object" target="nid_cidoc-crm:E73_Information_Object">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2752,7 +2729,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf122" source="nid_cidoc-crm:E89_Propositional_Object" target="nid_cidoc-crm:E28_Conceptual_Object">
+    <edge id="eid_rdfs:subClassOf121" source="nid_cidoc-crm:E89_Propositional_Object" target="nid_cidoc-crm:E28_Conceptual_Object">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2763,19 +2740,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55">
+      <node id="nid_:External_Xref_Type_E55">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="950.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="230.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:External_Xref_Type_E55</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf123" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55" target="nid_cidoc-crm:E55_Type">
+    <edge id="eid_rdfs:subClassOf122" source="nid_:External_Xref_Type_E55" target="nid_cidoc-crm:E55_Type">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2798,7 +2775,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf124" source="nid_cidoc-crm:E66_Formation" target="nid_cidoc-crm:E63_Beginning_of_Existence">
+    <edge id="eid_rdfs:subClassOf123" source="nid_cidoc-crm:E66_Formation" target="nid_cidoc-crm:E63_Beginning_of_Existence">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2809,7 +2786,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf125" source="nid_cidoc-crm:E66_Formation" target="nid_cidoc-crm:E7_Activity">
+    <edge id="eid_rdfs:subClassOf124" source="nid_cidoc-crm:E66_Formation" target="nid_cidoc-crm:E7_Activity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2820,19 +2797,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14">
+      <node id="nid_:Condition_Assessment_E14">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="970.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="250.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Condition_Assessment_E14</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf126" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_Assessment_E14" target="nid_cidoc-crm:E14_Condition_Assessment">
+    <edge id="eid_rdfs:subClassOf125" source="nid_:Condition_Assessment_E14" target="nid_cidoc-crm:E14_Condition_Assessment">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2855,7 +2832,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf127" source="nid_cidoc-crm:E65_Creation" target="nid_cidoc-crm:E63_Beginning_of_Existence">
+    <edge id="eid_rdfs:subClassOf126" source="nid_cidoc-crm:E65_Creation" target="nid_cidoc-crm:E63_Beginning_of_Existence">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2866,7 +2843,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf128" source="nid_cidoc-crm:E65_Creation" target="nid_cidoc-crm:E7_Activity">
+    <edge id="eid_rdfs:subClassOf127" source="nid_cidoc-crm:E65_Creation" target="nid_cidoc-crm:E7_Activity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2889,7 +2866,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf129" source="nid_cidoc-crm:E68_Dissolution" target="nid_cidoc-crm:E64_End_of_Existence">
+    <edge id="eid_rdfs:subClassOf128" source="nid_cidoc-crm:E68_Dissolution" target="nid_cidoc-crm:E64_End_of_Existence">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2900,19 +2877,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32">
+      <node id="nid_:Component_Type_Authority_Document_E32">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1100.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="380.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Component_Type_Authority_Document_E32</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf130" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
+    <edge id="eid_rdfs:subClassOf129" source="nid_:Component_Type_Authority_Document_E32" target="nid_cidoc-crm:E32_Authority_Document">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2935,7 +2912,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf131" source="nid_cidoc-crm:E16_Measurement" target="nid_cidoc-crm:E13_Attribute_Assignment">
+    <edge id="eid_rdfs:subClassOf130" source="nid_cidoc-crm:E16_Measurement" target="nid_cidoc-crm:E13_Attribute_Assignment">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2946,19 +2923,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63">
+      <node id="nid_:Beginning_of_Existence_E63">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="990.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="270.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Beginning_of_Existence_E63</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf132" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63" target="nid_cidoc-crm:E63_Beginning_of_Existence">
+    <edge id="eid_rdfs:subClassOf131" source="nid_:Beginning_of_Existence_E63" target="nid_cidoc-crm:E63_Beginning_of_Existence">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2981,7 +2958,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf133" source="nid_cidoc-crm:E85_Joining" target="nid_cidoc-crm:E7_Activity">
+    <edge id="eid_rdfs:subClassOf132" source="nid_cidoc-crm:E85_Joining" target="nid_cidoc-crm:E7_Activity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2992,19 +2969,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3">
+      <node id="nid_:Condition_E3">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="850.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="130.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Condition_E3</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf134" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Condition_E3" target="nid_cidoc-crm:E3_Condition_State">
+    <edge id="eid_rdfs:subClassOf133" source="nid_:Condition_E3" target="nid_cidoc-crm:E3_Condition_State">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3027,7 +3004,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf135" source="nid_cidoc-crm:E12_Production" target="nid_cidoc-crm:E63_Beginning_of_Existence">
+    <edge id="eid_rdfs:subClassOf134" source="nid_cidoc-crm:E12_Production" target="nid_cidoc-crm:E63_Beginning_of_Existence">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3038,7 +3015,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf136" source="nid_cidoc-crm:E12_Production" target="nid_cidoc-crm:E11_Modification">
+    <edge id="eid_rdfs:subClassOf135" source="nid_cidoc-crm:E12_Production" target="nid_cidoc-crm:E11_Modification">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3061,7 +3038,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf137" source="nid_cidoc-crm:E69_Death" target="nid_cidoc-crm:E64_End_of_Existence">
+    <edge id="eid_rdfs:subClassOf136" source="nid_cidoc-crm:E69_Death" target="nid_cidoc-crm:E64_End_of_Existence">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3072,19 +3049,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49">
+      <node id="nid_:Start_Date_of_Existence_E49">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="1000.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="280.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Start_Date_of_Existence_E49</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf138" source="nid_http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49" target="nid_cidoc-crm:E49_Time_Appellation">
+    <edge id="eid_rdfs:subClassOf137" source="nid_:Start_Date_of_Existence_E49" target="nid_cidoc-crm:E49_Time_Appellation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3095,7 +3072,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf139" source="nid_cidoc-crm:E32_Authority_Document" target="nid_cidoc-crm:E31_Document">
+    <edge id="eid_rdfs:subClassOf138" source="nid_cidoc-crm:E32_Authority_Document" target="nid_cidoc-crm:E31_Document">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3118,7 +3095,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf140" source="nid_cidoc-crm:E87_Curation_Activity" target="nid_cidoc-crm:E7_Activity">
+    <edge id="eid_rdfs:subClassOf139" source="nid_cidoc-crm:E87_Curation_Activity" target="nid_cidoc-crm:E7_Activity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3141,7 +3118,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf141" source="nid_cidoc-crm:E35_Title" target="nid_cidoc-crm:E33_Linguistic_Object">
+    <edge id="eid_rdfs:subClassOf140" source="nid_cidoc-crm:E35_Title" target="nid_cidoc-crm:E33_Linguistic_Object">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3152,7 +3129,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf142" source="nid_cidoc-crm:E35_Title" target="nid_cidoc-crm:E41_Appellation">
+    <edge id="eid_rdfs:subClassOf141" source="nid_cidoc-crm:E35_Title" target="nid_cidoc-crm:E41_Appellation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3175,7 +3152,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf143" source="nid_cidoc-crm:E83_Type_Creation" target="nid_cidoc-crm:E65_Creation">
+    <edge id="eid_rdfs:subClassOf142" source="nid_cidoc-crm:E83_Type_Creation" target="nid_cidoc-crm:E65_Creation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />

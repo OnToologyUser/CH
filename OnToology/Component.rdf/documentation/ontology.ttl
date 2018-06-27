@@ -3833,8 +3833,8 @@ The CRM is generally not concerned with amounts of matter in fluid or gaseous st
 """@en ;
                                                         rdfs:label "Chose matérielle"@fr ,
                                                                    "Coisa Material"@pt ,
-                                                                   "E18 Physical Thing"@en ,
                                                                    "Materielles"@de ,
+                                                                   "Physical Thing"@en ,
                                                                    "Υλικό Πράγμα"@el ,
                                                                    "Физическая Вещь"@ru .
 
@@ -4886,14 +4886,6 @@ Note, that the class E9 Move inherits the property P7 took place at (witnessed):
                                                         "Перемещение"@ru .
 
 
-###  http://www.co-ode.org/ontologies/ont.owl#Name_Type
-<http://www.co-ode.org/ontologies/ont.owl#Name_Type> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object> ;
-                                                     rdfs:comment """This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify instances of CRM classes. Instances of E55 Type represent concepts  in contrast to instances of E41 Appellation which are used to name instances of CRM classes. 
-E55 Type is the CRM’s interface to domain specific ontologies and thesauri. These can be represented in the CRM as subclasses of E55 Type, forming hierarchies of terms, i.e. instances of E55 Type linked via P127 has broader  term (has narrower term). Such hierarchies may be extended with additional properties. 
-"""@en .
-
-
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63> rdf:type owl:Class ;
                                                                                                       rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence> ,
@@ -5298,6 +5290,368 @@ E55 Type is the CRM’s interface to domain specific ontologies and thesauri. Th
 ###  http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71
 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> rdf:type owl:Class ;
                                                                                     rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E71_Man-Made_Thing> .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://kevin801006/CH#EPOXY
+:EPOXY rdf:type owl:NamedIndividual ,
+                <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+
+
+###  http://kevin801006/CH#ISBN
+:ISBN rdf:type owl:NamedIndividual ,
+               <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55> .
+
+
+###  http://kevin801006/CH#一級紅磚
+:一級紅磚 rdf:type owl:NamedIndividual ,
+               <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+
+
+###  http://kevin801006/CH#三維模型
+:三維模型 rdf:type owl:NamedIndividual ,
+               <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Resource_E1> ;
+      <http://www.cidoc-crm.org/cidoc-crm/P48_has_preferred_identifier> : .
+
+
+###  http://kevin801006/CH#修復工具參考文件
+:修復工具參考文件 rdf:type owl:NamedIndividual ,
+                   <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_Authority_Document_E32> ;
+          <http://www.cidoc-crm.org/cidoc-crm/P71_lists> :刨刀 ,
+                                                         :墨斗 ,
+                                                         :尺 ,
+                                                         :水線 ,
+                                                         :油漆刷 ,
+                                                         :鋸子 ,
+                                                         :鑿子 ;
+          <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> """切石機
+氣動錐子
+水線
+鉛錘
+墨斗
+空壓機
+尺
+水桶
+鏝刀
+吸塵器
+獨輪車
+刨刀
+鋸子
+鑿子
+油漆刷"""^^rdfs:Literal .
+
+
+###  http://kevin801006/CH#修復工法參考文件_假設工程
+:修復工法參考文件_假設工程 rdf:type owl:NamedIndividual ,
+                        <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32> .
+
+
+###  http://kevin801006/CH#修復工法參考文件_屋脊
+:修復工法參考文件_屋脊 rdf:type owl:NamedIndividual ,
+                      <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32> .
+
+
+###  http://kevin801006/CH#修復工法參考文件_屋面工程_瓦作
+:修復工法參考文件_屋面工程_瓦作 rdf:type owl:NamedIndividual ,
+                           <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32> .
+
+
+###  http://kevin801006/CH#修復工法參考文件_整修工程_地坪
+:修復工法參考文件_整修工程_地坪 rdf:type owl:NamedIndividual ,
+                           <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32> .
+
+
+###  http://kevin801006/CH#修復工法參考文件_整修工程_大木作
+:修復工法參考文件_整修工程_大木作 rdf:type owl:NamedIndividual ,
+                            <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_Authority_Document_E32> ;
+                   <http://www.cidoc-crm.org/cidoc-crm/P71_lists> :大木作 ;
+                   <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "選材->打截->去荒->彈各向中心線->淨身刨平->復彈中線->開榫斷肩->送交小木匠師細鑿->試組->組立->其他處理->完成"^^rdfs:Literal .
+
+
+###  http://kevin801006/CH#修復材料參考文件
+:修復材料參考文件 rdf:type owl:NamedIndividual ,
+                   <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_Authority_Document_E32> ;
+          <http://www.cidoc-crm.org/cidoc-crm/P71_lists> :EPOXY ,
+                                                         :木料 ,
+                                                         :油漆 ;
+          <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> """花崗石
+灰漿
+一級紅磚
+塊石
+水泥
+砂漿
+礪殼灰漿
+木料
+EPOXY
+油漆"""^^rdfs:Literal .
+
+
+###  http://kevin801006/CH#修復結束
+:修復結束 rdf:type owl:NamedIndividual ,
+               <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_E55> .
+
+
+###  http://kevin801006/CH#修復開始
+:修復開始 rdf:type owl:NamedIndividual ,
+               <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_E55> .
+
+
+###  http://kevin801006/CH#假設工程
+:假設工程 rdf:type owl:NamedIndividual ,
+               <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29> ;
+      <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "放樣->訂做尺寸->現場基礎人工挖掘->落柱處妨礙物清除->吊車進場->鋼架組立->鋼架組裝->小樑組裝->斜拉桿組裝->銅板屋面組裝->屋板收邊->完成"^^rdfs:Literal .
+
+
+###  http://kevin801006/CH#別稱
+:別稱 rdf:type owl:NamedIndividual ,
+             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55> .
+
+
+###  http://kevin801006/CH#刨刀
+:刨刀 rdf:type owl:NamedIndividual ,
+             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
+
+
+###  http://kevin801006/CH#台灣使用名稱
+:台灣使用名稱 rdf:type owl:NamedIndividual ,
+                 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_E55> .
+
+
+###  http://kevin801006/CH#各類ID參考文件
+:各類ID參考文件 rdf:type owl:NamedIndividual ,
+                   <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_Authority_Document_E32> ;
+          <http://www.cidoc-crm.org/cidoc-crm/P71_lists> :ISBN ,
+                                                         :模型ID ,
+                                                         :照片編號 ,
+                                                         :資料庫流水號 ;
+          <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> """模型ID
+資料庫流水號
+照片編號
+ISBN"""^^rdfs:Literal .
+
+
+###  http://kevin801006/CH#名稱種類參考文件
+:名稱種類參考文件 rdf:type owl:NamedIndividual ,
+                   <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_Type_Authority_Document_E32> ;
+          <http://www.cidoc-crm.org/cidoc-crm/P71_lists> :別稱 ,
+                                                         :台灣使用名稱 ;
+          <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> """台灣使用名稱
+別稱"""^^rdfs:Literal .
+
+
+###  http://kevin801006/CH#塊石
+:塊石 rdf:type owl:NamedIndividual ,
+             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+
+
+###  http://kevin801006/CH#墨斗
+:墨斗 rdf:type owl:NamedIndividual ,
+             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
+
+
+###  http://kevin801006/CH#大木作
+:大木作 rdf:type owl:NamedIndividual ,
+              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_Type_E55> .
+
+
+###  http://kevin801006/CH#尺
+:尺 rdf:type owl:NamedIndividual ,
+            <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
+
+
+###  http://kevin801006/CH#屋面工程_屋脊
+:屋面工程_屋脊 rdf:type owl:NamedIndividual ,
+                  <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29> ;
+         <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "紀錄現場樣式->粉刷敲除->瓦槽墊瓦->脊身粉刷打底->表層粉刷->彩繪放樣->空地化色->完成"^^rdfs:Literal .
+
+
+###  http://kevin801006/CH#山門
+:山門 rdf:type owl:NamedIndividual ,
+             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55> .
+
+
+###  http://kevin801006/CH#拜亭
+:拜亭 rdf:type owl:NamedIndividual ,
+             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_E55> .
+
+
+###  http://kevin801006/CH#整修工程_大木作
+:整修工程_大木作 rdf:type owl:NamedIndividual ,
+                   <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Construction_Technique_E29> ;
+          <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "選材->打截->去荒->彈各向中心線->淨身刨平->復彈中線->開榫斷肩->送交小木匠師細鑿->試組->組立->其他處理->完成"^^rdfs:Literal .
+
+
+###  http://kevin801006/CH#木料
+:木料 rdf:type owl:NamedIndividual ,
+             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+
+
+###  http://kevin801006/CH#椽條
+:椽條 rdf:type owl:NamedIndividual ,
+             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Name_E41> ;
+    <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> :台灣使用名稱 .
+
+
+###  http://kevin801006/CH#構件1
+:構件1 rdf:type owl:NamedIndividual ,
+              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> ;
+     :is_related_to :三維模型 ;
+     <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> :刨刀 ,
+                                                                   :墨斗 ,
+                                                                   :尺 ,
+                                                                   :水線 ,
+                                                                   :油漆刷 ,
+                                                                   :鋸子 ,
+                                                                   :鑿子 ;
+     <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> :拜亭 ;
+     <http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique> :大木作 ;
+     <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> :椽條 ;
+     <http://www.cidoc-crm.org/cidoc-crm/P88_consists_of> :EPOXY ,
+                                                          :木料 ,
+                                                          :油漆 ;
+     <http://www.cidoc-crm.org/cidoc-crm/P92_brought_into_existence> :開始 ;
+     <http://www.cidoc-crm.org/cidoc-crm/P93_took_out_of_existence> :結束 .
+
+
+###  http://kevin801006/CH#構件2
+:構件2 rdf:type owl:NamedIndividual ,
+              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> .
+
+
+###  http://kevin801006/CH#構件3
+:構件3 rdf:type owl:NamedIndividual ,
+              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Element_E18> .
+
+
+###  http://kevin801006/CH#模型ID
+:模型ID rdf:type owl:NamedIndividual ,
+               <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55> .
+
+
+###  http://kevin801006/CH#水泥
+:水泥 rdf:type owl:NamedIndividual ,
+             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+
+
+###  http://kevin801006/CH#水線
+:水線 rdf:type owl:NamedIndividual ,
+             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
+
+
+###  http://kevin801006/CH#油漆
+:油漆 rdf:type owl:NamedIndividual ,
+             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+
+
+###  http://kevin801006/CH#油漆刷
+:油漆刷 rdf:type owl:NamedIndividual ,
+              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
+
+
+###  http://kevin801006/CH#灰漿
+:灰漿 rdf:type owl:NamedIndividual ,
+             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+
+
+###  http://kevin801006/CH#照片編號
+:照片編號 rdf:type owl:NamedIndividual ,
+               <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55> .
+
+
+###  http://kevin801006/CH#砂漿
+:砂漿 rdf:type owl:NamedIndividual ,
+             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+
+
+###  http://kevin801006/CH#礪殼灰將
+:礪殼灰將 rdf:type owl:NamedIndividual ,
+               <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+
+
+###  http://kevin801006/CH#空間位置參考文件
+:空間位置參考文件 rdf:type owl:NamedIndividual ,
+                   <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Component_Type_Authority_Document_E32> ;
+          <http://www.cidoc-crm.org/cidoc-crm/P71_lists> :山門 ,
+                                                         :拜亭 ;
+          <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> """山門
+天井
+正殿
+拜亭
+廂房
+過水廊"""^^rdfs:Literal .
+
+
+###  http://kevin801006/CH#結束
+:結束 rdf:type owl:NamedIndividual ,
+             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_E64> ;
+    <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> :修復結束 .
+
+
+###  http://kevin801006/CH#結束存在參考文件
+:結束存在參考文件 rdf:type owl:NamedIndividual ,
+                   <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_of_Existence_Type_Authority_Document_E32> ;
+          <http://www.cidoc-crm.org/cidoc-crm/P71_lists> :修復結束 ;
+          <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> """更換
+修復結束
+損壞
+燒毀"""^^rdfs:Literal .
+
+
+###  http://kevin801006/CH#結束日期
+:結束日期 rdf:type owl:NamedIndividual ,
+               <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#End_Date_of_Existence_E49> ;
+      <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "民國九十一年三月七日完工"^^rdfs:Literal .
+
+
+###  http://kevin801006/CH#花崗石
+:花崗石 rdf:type owl:NamedIndividual ,
+              <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Material_E57> .
+
+
+###  http://kevin801006/CH#資料庫流水號
+:資料庫流水號 rdf:type owl:NamedIndividual ,
+                 <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_Type_E55> .
+
+
+###  http://kevin801006/CH#鋸子
+:鋸子 rdf:type owl:NamedIndividual ,
+             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
+
+
+###  http://kevin801006/CH#鑿子
+:鑿子 rdf:type owl:NamedIndividual ,
+             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Tool_E71> .
+
+
+###  http://kevin801006/CH#開始
+:開始 rdf:type owl:NamedIndividual ,
+             <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_E63> ;
+    <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> :修復開始 .
+
+
+###  http://kevin801006/CH#開始存在參考文件
+:開始存在參考文件 rdf:type owl:NamedIndividual ,
+                   <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Beginning_of_Existence_Type_Authority_Document_E32> ;
+          <http://www.cidoc-crm.org/cidoc-crm/P71_lists> :修復開始 ;
+          <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> """始建
+修復開始
+製造
+位移"""^^rdfs:Literal .
+
+
+###  http://kevin801006/CH#開始日期
+:開始日期 rdf:type owl:NamedIndividual ,
+               <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#Start_Date_of_Existence_E49> ;
+      <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "民國八十九年六月一日開工"^^rdfs:Literal .
+
+
+###  http://kevin801006/CH#975543
+: rdf:type owl:NamedIndividual ,
+           <http://www.semanticweb.org/cprc405/ontologies/2018/4/untitled-ontology-3#External_Xref_E42> ;
+  <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> :模型ID .
 
 
 ###  Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
